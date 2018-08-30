@@ -51,7 +51,7 @@
             
             <div class="col-md-5">
                 
-                <form method="post" action="/admin/dologin">
+                <form method="post" action="/admin/doLogin">
                 {{ csrf_field() }}
 
                      <div class="alert alert-danger">
@@ -66,7 +66,7 @@
                     <input type="password" name="password" class="form-control pword" placeholder="密码" />
                     <span color="pink" id="error_msg">
                         @if(session('msg'))
-                            
+                            {{session('msg')}}
                         @endif
                     </span>
                     <button class="btn btn-success btn-block loginin">立即登录</button>
