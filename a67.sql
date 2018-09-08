@@ -9,8 +9,8 @@ create table admin_users(
 	image_url varchar(255) not null comment '头像',
 	is_super ENUM('1','2') not null default '1' comment '是否超管 1 否 2 是',
 	status enum('1','2') not null default '1' comment '状态 1 正常 2 注销',
-	#created_at timestamp DEFAULT CURRENT_TIMESTAMP() comment '创建时间',
-	#updated_at timestamp DEFAULT CURRENT_TIMESTAMP() on UPDATE CURRENT_TIMESTAMP() COMMENT '修改时间',
+	created_at timestamp DEFAULT CURRENT_TIMESTAMP() comment '创建时间',
+	updated_at timestamp DEFAULT CURRENT_TIMESTAMP() on UPDATE CURRENT_TIMESTAMP() COMMENT '修改时间',
 	PRIMARY KEY(id),
 	UNIQUE key(username)
 	)ENGINE=INNODB DEFAULT charset=utf8 COLLATE=utf8_general_ci;
@@ -25,8 +25,8 @@ create table permissions(
 	is_menu enum('1','2') not null comment '是否显示',
 	description varchar(50) not null comment '备注',
 	sort int(10) not null comment '排序',
-	#created_at timestamp DEFAULT CURRENT_TIMESTAMP() comment '创建时间',
-	#updated_at timestamp DEFAULT CURRENT_TIMESTAMP() on UPDATE CURRENT_TIMESTAMP() COMMENT '修改时间',
+	created_at timestamp DEFAULT CURRENT_TIMESTAMP() comment '创建时间',
+	updated_at timestamp DEFAULT CURRENT_TIMESTAMP() on UPDATE CURRENT_TIMESTAMP() COMMENT '修改时间',
 	PRIMARY KEY(id),
 	UNIQUE key(name)
 	)ENGINE=INNODB DEFAULT charset=utf8 COLLATE=utf8_general_ci;
@@ -37,8 +37,8 @@ create table roles(
 	id int(10) unsigned AUTO_INCREMENT comment '主键ID',
 	role_name varchar(20) not null comment '角色名字',
 	description varchar(50) not null comment '角色描述',
-	#created_at timestamp DEFAULT CURRENT_TIMESTAMP() comment '创建时间',
-	#updated_at timestamp DEFAULT CURRENT_TIMESTAMP() on UPDATE CURRENT_TIMESTAMP() COMMENT '修改时间',
+	created_at timestamp DEFAULT CURRENT_TIMESTAMP() comment '创建时间',
+	updated_at timestamp DEFAULT CURRENT_TIMESTAMP() on UPDATE CURRENT_TIMESTAMP() COMMENT '修改时间',
 	PRIMARY KEY(id),
 	UNIQUE key(role_name)
 	)ENGINE=INNODB DEFAULT charset=utf8 COLLATE=utf8_general_ci;
@@ -74,8 +74,8 @@ year_id int(10) not null default 0 comment '年份',
 leader_id int(10) not null default 0 comment '导演',
 actor_id char(20) not null default ' ' comment '演员',
 description varchar(255) not null comment '描述',
-#created_at timestamp default current_timestamp comment '创建时间',
-#updated_at timestamp default current_timestamp on update current_timestamp comment '修改时间',
+created_at timestamp default current_timestamp comment '创建时间',
+updated_at timestamp default current_timestamp on update current_timestamp comment '修改时间',
 primary key(id),
 UNIQUE key(title)
 )ENGINE=MYISAM DEFAULT charset=utf8 COLLATE=utf8_general_ci;
@@ -91,8 +91,8 @@ create table novel(
   type_id int(10) not null default 0 comment '类型',
   author_id int(10) not null default 0 comment '作者',
   description varchar(255) not null comment '描述',
-  #created_at timestamp default current_timestamp comment '创建时间',
- # updated_at timestamp default current_timestamp on update current_timestamp comment '修改时间',
+  created_at timestamp default current_timestamp comment '创建时间',
+  updated_at timestamp default current_timestamp on update current_timestamp comment '修改时间',
   primary key(id),
 UNIQUE key(title)
 )ENGINE=MYISAM DEFAULT charset=utf8 COLLATE=utf8_general_ci;
@@ -104,8 +104,8 @@ create table novel_chapter(
   novel_id int(10) not null default 0 comment '小说id',
   title varchar(30) default ' ' comment '章节标题',
   content text comment '章节内容',
-  #created_at timestamp default current_timestamp comment '创建时间',
- # updated_at timestamp default current_timestamp on update current_timestamp comment '修改时间',
+  created_at timestamp default current_timestamp comment '创建时间',
+  updated_at timestamp default current_timestamp on update current_timestamp comment '修改时间',
   primary key(id),
 UNIQUE key(title)
 )ENGINE=MYISAM DEFAULT charset=utf8 COLLATE=utf8_general_ci;
@@ -117,8 +117,8 @@ create table comment(
   film_id int not null comment '电影ID',
   title varchar(30) not null comment '评论标题',
   content varchar(255) not null comment '评论的内容',
-  # created_at timestamp default current_timestamp comment '创建时间',
- # updated_at timestamp default current_timestamp on update current_timestamp comment '修改时间',
+  created_at timestamp default current_timestamp comment '创建时间',
+  updated_at timestamp default current_timestamp on update current_timestamp comment '修改时间',
   primary key(id),
 UNIQUE key(title)
 )ENGINE=MYISAM DEFAULT charset=utf8 COLLATE=utf8_general_ci;

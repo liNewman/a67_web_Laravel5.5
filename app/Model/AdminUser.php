@@ -19,7 +19,7 @@ class AdminUser extends Model
             ->where('username', $username)
             ->where('status', self::STATUS_NORMAL)
             ->first();
-
+dd($info);
             return $info;
     }
 

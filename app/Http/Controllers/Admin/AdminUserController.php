@@ -45,6 +45,7 @@ class AdminUserController extends Controller
      */
     public function addfunction(Request $request)
     {
+
         //接收传过来的所有 数据
         $params = $request->all();
 
@@ -54,16 +55,18 @@ class AdminUserController extends Controller
         //文件上传
         $params['image_url'] = $this->uploadFile($params['image_url']);
 
+        //md5加密
+        $password = md5($params['password']);
         //数据校验
-        if(empty($params['adminuser_name']) || empty($params['description'])){
-            return redirect()->back()->with('msg', '用户名称和用户描述不能为空');
+        if(empty($params['username']) || empty($password){
+            return redirect()->back()->with('msg', '用户名和用户密码不能为空');
         }
-        $adminusers = new adminuser();
+        $adminusers = new AdminUser();
 
         $res = $this->doRecord($params, $adminusers);
 
         if($res){
-            return redirect('/admin/admin-user/list');
+            return redirect('/admin/user/list');
         }else{
             return redirect()->back()->with('msg', '添加用户失败');
         }

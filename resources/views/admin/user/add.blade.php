@@ -36,7 +36,7 @@
             </div>
             <div class="panel-body panel-body-nopadding">
 
-                <form class="form-horizontal form-bordered" enctype="multipart/form-data" method="post" action="/admin/role/doadd">
+                <form class="form-horizontal form-bordered" enctype="multipart/form-data" method="post" action="/admin/user/doadd">
                     {{ csrf_field() }}
                     <div class="form-group">
                         <label class="col-sm-3 control-label" >用户名称</label>
@@ -47,7 +47,7 @@
                     <div class="form-group">
                         <label class="col-sm-3 control-label" >用户密码</label>
                         <div class="col-sm-6">
-                            <input type="password" placeholder="输入用户密码"  name="username" id="disabledinput" class="form-control" />
+                            <input type="password" placeholder="输入用户密码"  name="password" id="disabledinput" class="form-control" />
                         </div>
                     </div>
                     <div class="form-group">

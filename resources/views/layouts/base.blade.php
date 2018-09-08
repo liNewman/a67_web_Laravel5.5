@@ -94,7 +94,7 @@
         </li>
         <li class="nav-parent"><a href="#"><i class="fa fa-edit"></i> <span>点赞管理</span></a>
           <ul class="children">
-            <li><a href="http://www.a67web.com/admin/permission/list"><i class="fa fa-caret-right"></i> 添加页面</a></li>
+            <li><a href="http://www.a67web.com/yes"><i class="fa fa-caret-right"></i> 添加页面</a></li>
             <li><a href="http://www.a67web.com/admin/permission/list"><i class="fa fa-caret-right"></i> 列表页面</a></li>
           </ul>
         </li>

@@ -29,8 +29,8 @@ class LoginController extends Controller
         if(empty($userInfo)) {
             return redirect('/admin/login')->with('msg', '用户不存在');
         }else{
-            $postPassword = $password;
-            // $userInfoPassword = json_encode($userInfo->password);
+            $postPassword = md5($password);
+            $userInfoPassword = json_encode($userInfo->password);
             //验证密码
             if($userInfo['password'] != $postPassword){
                 return redirect('/admin/login')->with('msg', '密码错误');
@@ -42,9 +42,13 @@ class LoginController extends Controller
             ];
 
             //把登录信息存入session
-            session()->put('user_info', json_encode($userData));
-
-            return redirect('/admin/home');
+            
+            if(session()->put('user_info', json_encode($userData))) {
+                return redirect('/admin/home');
+            }else{
+                return redirect('/admin/login')->with('msg', '登陆失败');
+            }
+            
         }
         // return view('admin.home.home');
     }
