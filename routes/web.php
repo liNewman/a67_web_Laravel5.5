@@ -72,12 +72,16 @@ Route::post('addmoney', 'Kaoshi\RedmoneyController@domoney');//执行发红包�
 Route::get('getmoney', 'Kaoshi\RedmoneyController@getmoney');//抢红包页面
 
 //足球竞猜
-Route::get('guess', 'Admin\GuessController@addGuess');//添加竞猜球队的页面
+Route::any('/study/guess/create', 'Study\GuessController@create');//添加竞猜
+Route::any('/study/guess/store', 'Study\GuessController@doCreate');//执行竞猜
+Route::any('/study/guess/doguess', 'Study\GuessController@doGuess');//竞猜人竞猜
+Route::any('/study/guess/result', 'Study\GuessController@showResult');
+
+//抽奖A
+Route::any('/lucky', 'Study\LotteryController@index');
+Route::any('/study/doLottery', 'Study\LotteryController@doLottery');
 
 //登陆路由--laravel自带的
-
-
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
