@@ -87,14 +87,15 @@
         });
         //停止抽奖
         $('.stop').click(function(){
-            alert('停止抽奖');
+
             $.ajax({
                 url:'/study/doLottery',
                 type: "get",
                 dataType: "json",
                 data: {
                     _token: $("input[name=_token]").val(),
-                    user_id:1
+                    user_id:1,
+                    act_id:4
                 },
                 success:function (res) {
 
