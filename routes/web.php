@@ -80,6 +80,7 @@ Route::any('/study/guess/result', 'Study\GuessController@showResult');
 //抽奖A
 Route::any('/lucky', 'Study\LotteryController@index');
 Route::any('/study/doLottery', 'Study\LotteryController@doLottery');
+Route::any('/study/showlucky', 'Study\ShowluckyController@showLucky');
 
 //登陆路由--laravel自带的
 Auth::routes();

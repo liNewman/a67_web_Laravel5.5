@@ -14,7 +14,13 @@ class LotteryController extends Controller
 
 	//抽奖页面
     public function index(){
-    	return view('study.lottery.index');
+        $assign['record_list'] = CjUser::select('phone','real_name')
+            ->rightJoin('cj_record','cj_record.user_id','=','cj_user.id')
+            ->orderBy('cj_record.id','desc')
+            ->get()
+            ->toArray();
+
+        return view('study.lottery.index',$assign);
     }
 
     //执行抽奖操作
@@ -93,7 +99,7 @@ class LotteryController extends Controller
             'cj_date' => date('Y-m-d', time())
         ];
 
-$result = CjRecord::insert($data);
+        $result = CjRecord::insert($data);
 
         $result = [
             'code' => 200,
@@ -103,4 +109,6 @@ $result = CjRecord::insert($data);
 
         return json_encode($result);
     }
+
+
 }
