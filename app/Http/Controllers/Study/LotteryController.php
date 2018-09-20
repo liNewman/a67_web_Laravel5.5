@@ -23,22 +23,24 @@ class LotteryController extends Controller
         return view('study.lottery.index',$assign);
     }
 
+
     //执行抽奖操作
     public function doLottery(Request $request){
         $userId = $request->input('user_id', 0);
-    //    $actId = $request->input('act_id',4);//huodongid
+        $userId = $request->input('user_id', 0);
+        $actId = $request->input('act_id',4);//huodongid
 
-        $currentTime = date('Y-m-d 10:00:00', time());
-
-        $stime = strtotime(date('Y-m-d 10:00:00', time()));
-
-        $etime = strtotime(date('Y-m-d 12:00:00', time()));
+//        $currentTime = date('Y-m-d 10:00:00', time());
+//
+//        $stime = strtotime(date('Y-m-d 23:00:00', time()));
+//
+//        $etime = strtotime(date('Y-m-d 23:30:00', time()));
 
         //获取活动的配置信息
-        $activity = CjActivity::first()->toArray();
+        //$activity = CjActivity::first()->toArray();
 
         //判断活动的时间
-//       if($currentTime < $activity['s_time'] || $currentTime > $activity['s_time']){
+//       if($currentTime < $stime || $currentTime > $etime){
 //            $result = [
 //                'code' => 500,
 //                'msg'  =>'不在活动时间内'
@@ -49,10 +51,9 @@ class LotteryController extends Controller
 
         //获取用户的获奖记录
         $res = CjRecord::where('user_id', $userId)
-        ->where('cj_date', date('Y-m-d', time()))
-        ->count();
-
-        if($res >= 3){
+            ->where('cj_date', date('Y-m-d', time()))
+            ->count();
+        if($res == 3){
             $result = [
                 'code' => 500,
                 'msg'  => '今天已经抽奖完毕'
@@ -63,9 +64,8 @@ class LotteryController extends Controller
 
         //查询用户列表
         $cjUser = CjUser::select('id', 'phone')
-        ->get()
-        ->toArray();
-
+            ->get()
+            ->toArray();
         $user = [];
 
         //格式化用户的数据
@@ -75,13 +75,11 @@ class LotteryController extends Controller
 
         //随机获取用户的id 
         $userId = array_rand($user);
-
         //获取用户的获奖记录
         $res = CjRecord::where('user_id', $userId)
-        ->where('cj_date', date('Y-m-d', time()))
-        ->count();
-
-        if($res > 3){
+            ->where('cj_date', date('Y-m-d', time()))
+            ->count();
+        if($res == 3){
             $result = [
                 'code' => 500,
                 'msg'  => "今天已经抽奖完毕"

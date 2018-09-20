@@ -38,9 +38,9 @@
                     <div class="form-group">
                         <label class="col-sm-3 control-label">竞猜结果</label>
                         <div class="col-sm-4">
-                            <input type="radio" id="results" value="1" />胜
-                            <input type="radio" id="results" value="2" />负
-                            <input type="radio" id="results" value="" />平
+                            <input type="radio" id="results" name="1" value="1" />胜
+                            <input type="radio" id="results" name="2" value="2" />负
+                            <input type="radio" id="results" name="3" value="3" />平
                         </div>
                     </div>
 

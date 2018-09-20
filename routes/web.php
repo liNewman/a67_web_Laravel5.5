@@ -65,11 +65,11 @@ Route::group(['prefix'=>'admin'], function (){
     //角色权限分配
     Route::get('permission/role/{id}', 'Admin\PermissionRoleController@index');
 });
-
+/*
 // 期中考试红包
 Route::get('redmoney', 'Kaoshi\RedmoneyController@index');//发红包页面
 Route::post('addmoney', 'Kaoshi\RedmoneyController@domoney');//执行发红包方法
-Route::get('getmoney', 'Kaoshi\RedmoneyController@getmoney');//抢红包页面
+Route::get('getmoney', 'Kaoshi\RedmoneyController@getmoney');//抢红包页面*/
 
 //足球竞猜
 Route::any('/study/guess/create', 'Study\GuessController@create');//添加竞猜
@@ -86,3 +86,24 @@ Route::any('/study/showlucky', 'Study\ShowluckyController@showLucky');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//添加抽奖
+Route::any('/addlucky', 'AddluckyController@create');//添加抽奖页面
+Route::any('/dolucky', 'AddluckyController@doCreate');//添加抽奖页面
+//抽奖
+Route::any('/tolucky', 'AddluckyController@tolucky');//抽奖页面
+
+//评论回复
+Route::get('/commentreply', 'ReplyController@create');//评论回复页面展示
+Route::any('/commentreplyadd', 'ReplyController@doCreate');//评论方法
+Route::get('/commentreplydelete/{id}', 'ReplyController@delete');//删除评论的方法
+
+Route::any('/commentreplyback', 'ReplyController@replyback');//评论回复
+  //  Route::post('user/doadd', 'Admin\AdminUserController@addfunction');//角色 添加 操作
+  //  Route::get('user/edit/{id}', 'Admin\AdminUserController@edit');//角色 修改
+  //  Route::post('user/doEdit', 'Admin\AdminUserController@doEdit');//角色 修改 操作
+
+
+
+
+

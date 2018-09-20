@@ -69,7 +69,6 @@
                                     <td>
                                             <button class="btn btn-primary-alt"><a href="/study/guess/doguess?id={{$v->id}}">竞猜</a></button>
                                             <button class="btn btn-primary"><a href="/study/guess/result?id={{$v->id}}">查看结果</a></button>
-                                            <button class="btn btn-success"><a href="/study/guess/result/{{$v->id}}">添加竞猜</a></button>
                                     </td>
                                 </tr>
                             @endforeach

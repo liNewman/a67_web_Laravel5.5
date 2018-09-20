@@ -67,7 +67,7 @@
     var n = 1;
     var timer; //定义滚动的定时器
     var result   = 18912345678; //指定中奖结果,可以抽取指定数组中的某一个
-    var isBegin  = false; //标识能否开始抽奖
+    var isBegin  = true; //标识能否开始抽奖
 
     $(".num").css('backgroundPositionY',200);//开始13888888888
     $(".num").eq(0).css('backgroundPositionY',-100)
@@ -89,7 +89,7 @@
     $(function(){
         //开始抽奖
         $('.start').click(function(){
-            if(isBegin){
+            if(isBegin == 3){
                 return false;
             }else{
                 run();
@@ -121,13 +121,14 @@
                                     duration: 500,
                                     easing: "easeInOutCirc",
                                     complete: function(){
-                                        if(index == 10){
+                                        if(index){
                                             isBegin = false;
                                         }
                                     }
                                 });
                             },100);
                         });
+
                     }else {
                         alert(res.msg);
                     }
@@ -138,12 +139,6 @@
 
             });
 
-            /*$.ajax({
-                url:'/study/index',
-                type:'get',
-                dataType:'json',
-                
-            });*/
             window.clearTimeout(timer);
             isBegin = false ;
         });

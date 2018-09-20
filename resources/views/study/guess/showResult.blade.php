@@ -37,8 +37,8 @@
                     </div>
                     <div class="form-group">
                         <label class="col-sm-3 control-label">竞猜结果</label>
-                        <div class="col-sm-4">
-                            @if($info['results'] == 1)
+                          <div class="col-sm-4">
+                            @if($info['results'] = 1)
                                 <label class="col-sm-3 control-label">你赢了</label>
                                 @else
                                 <label class="col-sm-3 control-label">很抱歉</label>
