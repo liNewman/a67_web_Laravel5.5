@@ -45,6 +45,18 @@ Route::get('/study/article2/detail','Study\ArticleClick2Controller@detail');
 
 
 
+//A场考试评论功能
+Route::group(['prefix'=>'pl'],function (){
+    //列表展示
+    Route::get('index','Admin\PinglunController@index');
+    //添加
+    Route::post('create','Admin\PinglunController@create');
+    //回复
+    Route::post('create1','Admin\PinglunController@create1');
+    //删除
+    Route::get('delete/{id}','Admin\PinglunController@delete');
+});
+
 
 //管理后台的路由
 Route::group(['prefix'=>'admin'],function(){
@@ -57,6 +69,10 @@ Route::group(['prefix'=>'admin'],function(){
     Route::get("guess/result/{id?}",'Admin\GuessController@result');   //删除
     Route::post("guess/doresult",'Admin\GuessController@doresult');
     Route::get("guess/end/{id?}",'Admin\GuessController@end');
+
+
+
+
 
 
     //登陆的路由
@@ -127,6 +143,8 @@ Route::group(['prefix'=>'admin'],function(){
     //评论列表
     Route::get('comment/list','Admin\CommentController@list');
     Route::get('Comment/delete','Admin\CommentController@delete');
+
+
 
 
 

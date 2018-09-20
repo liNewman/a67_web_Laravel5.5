@@ -81,8 +81,6 @@ class ArticleClickController extends Controller
         }
 
         return json_encode($result);
-
-
     }
 
     public function detail($id)

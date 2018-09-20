@@ -66,8 +66,8 @@
     var isBegin  = false; //标识能否开始抽奖
 
     $(".num").css('backgroundPositionY',200);//开始13888888888
-    $(".num").eq(0).css('backgroundPositionY',-100)
-    $(".num").eq(1).css('backgroundPositionY',-300)
+    $(".num").eq(0).css('backgroundPositionY',-100);
+    $(".num").eq(1).css('backgroundPositionY',-300);
 
     //执行数字滚动
     function run(){
