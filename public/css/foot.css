@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+<!--脚部分-->
+.Foot {
+	width:100%;
+	height:220px;
+	background:red;
+}
+.Foot .font_in{
+	width:1084px;
+	margin:0 auto;
+	height:220px;
+		position: relative;
+
+}
+.Foot .font_in ul {
+	padding-top:33px;
+	float:left;
+	padding-right:50px;
+}
+.Foot .font_in ul li,.Foot .font_in ul li a{
+	line-height:20px;
+	color:#aaaaaa
+}
+.Foot .font_in ul li h2{
+	color:#dcdcdc;
+}
+.Foot .font_in .wei{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	color: #fff;
+	right: 0;
+	top: 23px;
+}
+.Foot .font_in .wei p {
+	background: url(../img/2weima.jpg) no-repeat;
+	width: 87px;
+	height: 88px;
+}
+.Foot .font_in .wei span{
+	display: inline-block;
+	width: 87px;
+	text-align: center;
+	line-height: 30px;
+}
+.Foot .E-male {
+	position: absolute;
+	bottom: 26px;
+	left: 0;
+}
+.Foot .E-male span{
+	float: left;
+	color: #aaaaaa;
+	font-size: 14px;
+	padding-right: 8px;
+	margin-top:5px;
+}
+.Foot .E-male button{
+	float:left;
+	width: 75px;
+	height: 30px;
+	background: #ad0214;
+	color: #fff;
+	border:0 none;
+	
+
+}
+.Foot .E-male input{
+	height: 28px;
+	border:1px solid #cccccc;
+	line-height: 28px;
+	width: 200px;
+	float: left;
+	padding-left: 5px;
+}
+.Foot .dingbu{
+	color: #fff;
+	padding-top: 14px;
+	text-align: center;
+	position: absolute;
+	width: 28px;
+	height: 64px;
+	background: #ad0014;
+	cursor: pointer;
+	right: 16px;
+	top: 78px;
+}

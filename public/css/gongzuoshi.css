@@ -1,0 +1,167 @@
+.banner{
+	width:1083px;
+	height:auto;
+	margin:20px auto 20px;
+}
+.cent{
+	margin:0 auto;
+	width:1083px;
+	background:#fff;
+	padding-top:19px;
+	
+}
+.cent .l,.cent .r{
+	float:left;
+	height:1000px;
+}
+.cent .l{
+	width:208px;
+
+}
+.cent .l img{
+	margin-top:10px;
+	margin-left:20px;
+}
+.cent .r{
+	width:875px;
+
+}
+.cent .r .box h3,.cent .r .box span{
+	float:left;
+}
+.cent .r .box {
+	margin-top:14px;
+	line-height:20px;
+}
+.cent .r .box h3{
+	margin-right:5px;
+	font-family:宋体;
+	color:#DD0D0B;
+	font-size:16px;
+}	
+.cent .r .zhankai{
+	margin-top:18px;
+	margin-bottom:40px;
+}
+.cent .r .zhankai p{
+
+	color:#656565;
+}
+.cent .r .zhankai p,.cent .r .zhankai span{
+	float:left;
+
+}
+.cent .r .zhankai p{
+	white-space: nowrap;
+	width:804px;
+	line-height:20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.cent .r .zhankai span{
+	margin-left:20px;
+	width:50px;
+	background:url(../img/yishujiayemian/sp.fw.png) 28px 3px;
+	cursor:pointer;
+}
+.cent .r ul li{
+	float:left;
+	margin-right:55px;
+}
+.cent .r ul li span{
+	display:block;
+	margin-top:10px;
+	margin-bottom:29px;
+	margin-left:5px;
+}
+.cent ol{
+	margin: 20px 0 30px 221px;
+
+}
+.jobIndex {
+	padding: 0 4px;
+}
+.cent ol li{
+	float: left;
+	width: 35px;
+	height: 35px;
+	border:1px solid #C1C1C1;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 35px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+	font-size: 14px;
+	color: #7F7F7F;
+	cursor: pointer;
+	margin: 0 10px;
+	background: url(../img/huihua_tiaoye_bj.jpg) repeat-x;
+}
+.cent ol li:nth-child(8){
+	border:0 none;
+	margin: 0 ;
+	background: none;
+}
+.cent ol li:nth-child(8).act,.Ct ol li:nth-child(12).act{
+	border:0 none;
+	background: none;
+	color: #7F7F7F;
+}
+.cent ol .act 
+.cent ol li:nth-child(7){
+	margin-right: 2px;
+}
+.cent ol li:nth-child(9){
+	margin-left:4px;
+}
+.cent ol li:nth-child(11) s{
+	width: 6px;
+	height: 12px;
+	display: block;
+	background: url(../img/sp.png) no-repeat -102px -121px;
+	padding: 15px 0 0 15px;
+}
+.cent ol li:nth-child(12),.Ct ol li:nth-child(13){
+	border:0 none;
+	background: none;
+	width: auto;
+	font-weight: normal;
+}
+.cent ol li:nth-child(13) input{
+	border:1px solid #C1C1C1 ;
+	line-height: 40px;
+	padding-left: 5px;
+	width: 35px;
+	height: 35px;
+	background: url(../img/huihua_tiaoye_bj.jpg) repeat-x;
+}
+.cent ol .act{
+	border:1px solid #ECA128;
+	background: url(../img/huihua_tiaozhuan_bj_hover.jpg) repeat-x;
+	color: #fff;
+}
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

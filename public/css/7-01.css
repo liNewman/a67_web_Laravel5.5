@@ -1,0 +1,480 @@
+@charset "utf-8";
+/* CSS Document */
+.r h2{
+	font-size:22px;
+	font-family:微软雅黑;
+	font-weight:normal;
+}
+.r .tab{
+	margin-top:26px;
+}
+.tab p{
+	width:96px;
+	height:42px;
+	border:1px solid #E4E5E7;
+	margin-right:5px;
+	background:#F8F8F8;
+	text-align:center;
+	line-height:42px;
+	display:inline-block;
+	font-family:微软雅黑;
+	font-size:16px;
+	cursor:pointer;
+}
+.tab .act{
+	border-top:2px solid #1E7AC0;
+	border-bottom:1px solid #fff;
+	background:#fff;
+	color:#1E7AC0;
+
+}
+.tab .act a{
+	color:#1E7AC0;
+}
+.neirong{
+	border-top:1px solid #DDDDDD;
+	margin-top:-1px;
+	padding-top:28px;
+
+}
+.tab span{
+	font-size:16px;
+	padding-left:290px;
+	color:#ABABAB;
+}
+.tab .lan{
+	color:#4095CE;
+	padding:0;
+}
+.tab span b{
+	padding:0 5px;
+	color:#FFB900;
+}
+.zhong .neirong dt ,.zhong .neirong dd{
+	float:left;
+}
+.zhong .neirong dd b{
+	height:28px;
+	display:inline-block;
+	color:#999;
+}
+.zhong .neirong dd b:first-child{
+	color:#4095CE;
+}
+.zhong .neirong dd {
+	font-size:14px;
+	margin-top:26px;
+	margin-left:20px;
+	color:#666666;
+}
+.zhong .neirong dd span a{
+	color:#4095CE;
+}
+.zhong dl{
+	border-bottom:1px solid #F4F4F4;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-top:10px;
+	position:relative;
+}
+.zhong dl .dw{
+	position:absolute;
+  top: 25px;
+  right: 18px;
+  cursor:pointer;
+	width:22px;
+	height:41px;
+	background:url(../img/gerenzhongxin/7-01-1.png) no-repeat;
+}
+.zhong .r .tiaozhuan ul li {
+	width:35px;
+	height:35px;
+	background:#FFBA00;
+	color:#fff;
+	border:1px solid #ECA128;
+	border-radius:3px;
+	text-align:center;
+	line-height:35px;
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+	cursor:pointer;
+}
+.zhong .r .tiaozhuan .dao{
+	float:left;
+	color:#999999;
+	font-size:16px;
+	line-height:35px;
+	margin-left:40px;
+	margin-bottom:20px;
+}
+.zhong .r .tiaozhuan .dao input{
+	width:35px;
+	height:35px;
+	border:1px solid #C1C1C1;
+	background:url(../img/gerenzhongxin/7-01%20unmber%20btn.png) repeat-x;
+	padding-left:5px;
+}
+.zhong .r .tiaozhuan button{
+	width:35px;
+	height:35px;
+	border-radius:3px;
+	border:1px solid #C1C1C1;
+	background:url(../img/gerenzhongxin/7-01%20buttom.png) repeat-x;
+	font-weight:bold;
+	font-family:微软雅黑;
+	color:#7F7F7F;
+	font-size:14px;
+	position:relative;
+	top:2px;
+
+}
+.zhong .r .tiaozhuan{
+	padding-top:20px;
+	padding-left:186px;
+}
+
+.r .fanhui{
+	color:#4095CE;
+	font-size:14px;
+	margin-left:530px;
+}
+.neirong .tishi ,.neirong .tishi2{
+	font-size:14px;
+	color:#ABABAB;
+	padding-bottom:18px;
+	border-bottom:1px solid #F4F4F4;
+	margin-top:10px;
+}
+.neirong .tishi span{
+	color:#4095CE;
+}
+.neirong .tishi2{
+	margin-top:15px;
+	line-height:48px;
+
+}
+.neirong .tishi2 i{
+	background:url(../img/gerenzhongxin/7-01-01%20touxiang.png);
+	display:block;
+	width:48px;
+	height:48px;
+	float:left;
+	margin-right:8px;
+}
+.neirong .tishi2 .two{
+	background-image:url(../img/gerenzhongxin/7-01-01%20tou2.png);
+}
+.neirong .tishi2 s{
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:15px;
+	height:48px;
+	background:url(../img/gerenzhongxin/7-01-01%20zhuan%20huan%20.png) no-repeat 0 20px;
+}
+.neirong .tishi2 span{
+	color:#4095CE;
+}
+.neirong .tishi2 b{
+	color:#FFB900;
+}
+.neirong .tishi2 a{
+	border:1px solid #C3C3C3;
+	margin-right:50px;
+	border-radius:3px;
+	background:#E1E1E1;
+	font-size:12px;
+	margin-top:15px;
+	float:right;
+	width:87px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+}
+.neirong .tishi2{
+	position:relative;
+}
+.neirong .tishi2 p{
+	width:347px;
+	height:185px;
+	background:url(../img/gerenzhongxin/7-01-01.fw.png);
+	position:absolute;
+	top:-88px;
+	left:239px;
+	z-index:9;
+	display:none;
+}
+.neirong .tishi2 p i{
+	top:0;
+	right:0;
+	position:absolute;
+	width:46px;
+	height:20px;
+	background:none;
+	cursor:pointer;
+}
+.zhong .r .neirong .tishi2 p button{
+  position: absolute;
+  bottom: 23px;
+  right: 18px;
+  background: none;
+  border:0;
+  width: 83px;
+  height: 27px;
+}
+.zhong .r .neirong .tishi2 p s{
+	background:none;
+  right: 107px;
+  bottom: 23px;
+  position: absolute;
+  width: 84px;
+  height: 26px;
+  cursor:pointer;
+}
+.zhong .r .text {
+	margin-top:26px;
+	border-bottom:1px solid #F4F4F4;
+	padding-bottom:26px;
+}
+.zhong .r .text textarea{
+	width:602px;
+	height:80px;
+	border:1px solid #C2C2C2;
+	background:url(../img/gerenzhongxin/7-01-01_tech_bj.png) repeat-x;
+		padding:5px;
+	margin-bottom:28px;
+}
+.zhong .r .text .text_l a,.zhong .neirong .box .box_l .cent a{
+	color:#4095CE;
+	background:url(../img/gerenzhongxin/7-01-01%20biaoqing.png) no-repeat;
+	padding-left:20px;
+	line-height:16px;
+	position:relative;
+	top:-20px;
+	height:16px;
+	display:inline-block;
+}
+.zhong .r .text .text_l p span,.zhong .neirong .box .box_l .cent p span{
+	color:#FF3334;
+}
+.zhong .r .text .text_l p{
+	height:26px;
+}
+.zhong .r .text .text_l .btn{
+	margin-left:485px;
+}
+.zhong .r .text .text_l .btn button{
+	width:87px;
+	height:24px;
+	color:#A83D04;
+	border:1px solid #E39516;
+	border-radius:3px;
+	background:#FFCB17;
+	margin-left:41px;
+}
+.zhong .r .text .text_l{
+	float:left;
+}
+.zhong .r .text .text_r{
+	margin-right:60px;
+	float:right;
+}
+.zhong .r .text .text_r span{
+	display:block;
+}
+.zhong .r .duihua{
+
+
+	margin-bottom:20px;
+}
+.zhong .r .duihua .wo,.zhong .r .duihua .ta{
+	margin-top:20px;
+}
+.zhong .r .duihua p,.zhong .r .duihua .touxiang{ float:left;}
+.zhong .r .duihua p{
+	background:url(../img/gerenzhongxin/7-01-01%20duihuakuang.fw.png) no-repeat;
+	width:564px;
+	height:58px;
+	padding-left:20px;
+	margin-left:64px;
+	padding-top:16px;
+	position:relative;
+}
+.zhong .r .duihua p span{
+	position:absolute;
+	bottom:16px;
+	left:20px;
+	color:#999;
+}
+.zhong .r .duihua p a{
+	position:absolute;
+	bottom:16px;
+	right:30px;
+	color:#009CFF;
+}
+.zhong .r .duihua .touxiang{
+	margin-left:14px;
+}
+.zhong .r .duihua .touxiang span{
+	width:48px;
+	text-align:center;
+	display:inline-block;
+	margin-top:6px;
+}
+.zhong .r .duihua .ta p{
+	margin-left:15px;
+	  width: 564px;
+  height: 77px;
+	background:url(../img/gerenzhongxin/7-01-01%20duihuakuang2.fw.png) ;
+}
+.zhong .r .duihua p .huifu{
+	right:82px;
+	position:absolute;
+}
+.zhong .r .duihua .ta .touxiang {
+  margin-left: -5px;
+}
+
+
+
+
+
+/*7-01-02 下边部分*/
+.zhong .neirong .box .box_l,.zhong .neirong .box .box_r{
+	float:left;
+}
+.zhong .neirong .box .box_l{
+	width:557px;
+	height:278px;
+	border-bottom:1px solid #f4f4f4;
+}
+.zhong .neirong .box .box_l .top{
+	height:66px;
+	border-bottom:1px solid #f4f4f4;
+	line-height:66px;
+	padding-left:54px;
+}
+.zhong .neirong .box .box_l .red{
+	line-height:25px;
+	position:relative;
+	top:5px;
+}
+.zhong .neirong .box .box_l .top input{
+	width:235px;
+	height:33px;
+	padding-left:5px;
+	border:1px solid #C1C1C1;
+	background:url(../img/xiugaiziliao/input_bj.jpg) repeat-x;
+	margin-top:14px;
+	margin-left:24px;
+	margin-right:20px;
+}
+.zhong .neirong .box .box_l .top span,.zhong .neirong .box .box_l .top input{
+	float:left;
+}
+.zhong .neirong .box .box_l .cent span{
+	float:left;
+	margin-left:64px;
+}
+.zhong .neirong .box .box_l .cent p{
+	text-align:right;
+	margin-right:26px;
+}
+.zhong .neirong .box .box_l .cent p span{
+	padding:0;
+	margin:0;
+	float:none;
+}
+.zhong .neirong .box .box_l .cent a{
+	  top: 12px;
+  left: 126px;
+}
+.zhong .neirong .box .box_l .cent textarea{
+	width:391px;
+	height:120px;
+	border:1px solid #C1C1C1;
+	background:url(../img/gerenzhongxin/7-01-02%20tecex.png) repeat-x;
+	float:left;
+	margin-left:26px;
+	padding:5px;
+}
+.zhong .neirong .box .box_l .cent .cent_top{
+	margin-top:16px;
+}
+.zhong .neirong .box .box_l .btm button{
+	width:116px;
+	border-radius:3px;
+	font-size:18px;
+	font-family:微软雅黑;
+	color:#A33300;
+	height:37px;
+	border:1px solid #E28F16;
+	background:#FFCB18;
+	margin-top:15px;
+	margin-left:120px;
+}
+.zhong .neirong .box .box_l .btm{
+	margin-top:35px;
+}
+.zhong .neirong .box .box_r{
+	width:201px;
+	border-left:1px solid #F4F4F4;
+	height:325px;
+	padding-top:16px;
+
+}
+.zhong .neirong .box .box_r h3{
+	height:34px;
+	margin-left:25px;
+	font-size:14px;
+}
+.zhong .neirong .box .box_r dl{
+	padding:0;
+	border:0;
+	margin-bottom:20px;
+
+}
+.zhong .neirong .box .box_r dl dd,.zhong .neirong .box .box_r dl dt {
+	float:left;
+		font-size:12px;
+	margin:0;
+	padding:0;
+	color:#7F7F7F;
+	line-height:16px;
+}
+.zhong .neirong .box .box_r dl dd span:first-child{
+	color:#4095CE;
+}
+.zhong .neirong .box .box_r dl dd span:last-child{
+	cursor:pointer;
+}
+.zhong .neirong .box .box_r dl dd .hui{
+	color:#AAAAAA;
+}
+.zhong .neirong .box .box_r dl dt{
+	margin-left:26px;
+}
+.zhong .neirong .box .box_r dl dd{
+	margin-left:6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

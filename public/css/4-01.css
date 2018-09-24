@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+.r h2{
+	font-size:20px;
+	font-family:微软雅黑;
+	color:#666;
+	font-weight:normal;
+}
+.r p{
+	width:714px;
+	margin-top:28px;
+	height:36px;
+	border:1px solid #EEEEEE;
+	line-height:36px;
+	font-weight:bold;
+	font-size:16px;
+	background:#FAFAFA;
+	padding-left:40px;
+}
+.r .box {
+	margin-top:28px;
+}
+.r .box .box_top{
+	width:747px;
+	height:32px;
+	border:1px solid #F2F2F2;
+	background:#F5F5F5;
+	line-height:32px;
+		padding-left:6px
+}
+.lan{
+	color:#015FA7;
+;
+}
+.r .box .box_top span{
+	padding-right:30px;
+}
+.r .box ul{
+	height:98px;
+	width:754px;
+	border-left:1px solid #F2F2F2;
+	border-bottom:1px solid #F2F2F2;
+
+}
+.r .box ul li {
+	border-right:1px solid #F2F2F2;
+	float:left;
+	padding-top:8px;
+	text-align:center;
+	height:90px;
+}
+.r .box ul li a{
+	color:#005EA7;
+	display:block;
+
+}
+.r .box ul li img{
+	padding:1px;
+	border:1px solid #ccc;
+	margin-left:26px;	
+}
+.r .btn a{
+	float:left;
+}
+.r .btn a:first-child{
+	background:url(../img/gerenzhongxin/2-01%20button.fw.png) left top;
+	width:85px;
+	height:30px;
+}
+.r .btn a:last-child{
+	background:url(../img/gerenzhongxin/2-01%20button.fw.png) left bottom;
+	width:85px;
+	height:30px;
+}
+.r .btn a:nth-child(2){
+	color:#FF663D;
+	font-weight:bold;
+	line-height:30px;
+	padding:0 10px;
+}
+.r .btn {
+	overflow:hidden;
+	margin-top:10px;
+	margin-left:560px;
+}
+.r p span:nth-child(1){
+	padding-right:148px;
+}
+.r p span:nth-child(2){
+	padding-right:38px;
+}
+.r p span:nth-child(3){
+	padding-right:38px;
+}
+.r p span:nth-child(4){
+	padding-right:70px;
+}
+.r p span:nth-child(5){
+	padding-right:76px;
+}

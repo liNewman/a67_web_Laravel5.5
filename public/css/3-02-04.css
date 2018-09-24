@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.r h2 a {
+		font-size:20px;
+	font-family:微软雅黑;
+	color:#999999;
+}
+.r h2 span{
+	font-size:16px;
+	color:#727272;
+	font-family:微软雅黑;
+}
+.r h2{
+	height:44px;
+	border-bottom:1px dashed #FBDA9B;
+}
+.xuanxiang{
+	font-size:14px;
+	font-family:微软雅黑;
+	margin-top:16px;
+}
+.xuanxiang span{
+	padding-right:26px;
+}
+.xuanxiang a{
+	display:inline-block;
+	color:#fff;
+	font-family:微软雅黑;
+	font-size:14px;
+	padding:7px 26px;
+	background:#CCD0D9;
+	margin-right:15px;
+	border-radius:40px;
+}
+
+.xuanxiang .act{
+	background:#F38D2E;
+}
+.last{
+	padding-bottom:26px;
+	border-bottom:1px dashed  #FBDA9B;
+}
+.zhong table{
+	margin-top:20px;
+}
+.zhong table th{
+	background:#F9F9F9;
+	border:1px solid #DDDDDD;
+	width:830px;
+	font-size: 14px;
+color: #424344;
+font-weight:bold;
+padding-left:8px;
+line-height:36px;
+}
+.zhong table td{
+	font-family:宋体;
+	color:#404040;
+	padding-left:26px;
+	line-height:26px;
+}
+.zhong table td a{
+	color:#1E79C1;
+}
+.zhong table tr td:nth-child(3) span{
+	color:#FD6D00;
+}
+.tiaozhuan{
+	margin-top:100px;
+	margin-left:235px;
+	margin-bottom:20px;
+}
+.tiaozhuan a{
+	float:left;
+	line-height:30px;
+	padding:0 5px;
+	margin-right:10px;
+	color:#FD6D00;
+	font-weight:bold;
+}
+.tiaozhuan a:first-child{
+	background:url(../img/gerenzhongxin/2-01%20button.fw.png) top left;
+	width:85px;
+	height:30px;
+	padding:0;
+}
+.tiaozhuan a:last-child{
+	background:url(../img/gerenzhongxin/2-01%20button.fw.png) left bottom ;
+	width:85px;
+	height:30px;
+	padding:0;
+}

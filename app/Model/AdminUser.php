@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class AdminUser extends Model
 {
+
+
+
     const
     STATUS_NORMAL=1,//正常
     STATUS_FAIL=2,//注销

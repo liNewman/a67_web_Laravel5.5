@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main {
+	width:1083px;
+	margin:0 auto;
+	margin-top:24px;
+}
+.main ol{
+	float:left;
+	width:270px;
+	height:265px;
+	border:1px solid #E1E1E1;
+	border-bottom:0 ;
+}
+.main ol li {
+	height:66px;
+	font-size:18px;
+	font-family:微软雅黑;
+	text-align:center;
+	line-height:66px;
+	background:#fff;
+	cursor:pointer;
+}
+.main ol .act{
+	background:#F8F8F8;
+	border-left:4px solid #424345;
+}
+.main .r{
+	float:right;
+	width:781px;
+	border:1px solid #F1F1F1;
+	background:#fff;
+	margin-bottom:20px;
+}
+.main .r h2{
+	font-size:24px;
+	color:#000;
+	text-align:center;
+	margin:0 30px;
+	margin-top:20px;
+	padding-bottom:41px;
+	border-bottom:1px dashed #DDDDDD;
+}
+.main .r p{
+	line-height:60px;
+	border-bottom:1px dashed #DDDDDD;
+	margin:0 30px;
+	font-size:16px;
+	font-family:微软雅黑;
+}
+.main .r p a{
+	color:#108BDD;
+}
+.main .r p{
+	position:relative;
+}
+.main .r p i{
+	font-size:12px;
+	color:#777777;
+	left:600px;
+	position:absolute;
+}
+.main .r p span{
+	color:#777777;
+	font-size:12px;
+	text-align:right;
+}
+.main .r ul {
+	margin-top:25px;
+	padding-bottom:54px;
+	margin-left:200px;
+}
+.main .r ul li {
+	cursor:pointer;
+	width:28px;
+	height:28px;
+	border:1px solid #F2F2F2;
+	text-align:center;
+	line-height:28px;
+	background:#fff;
+	float:left;
+	margin:0 5px;
+}
+.main .r ul .act{
+	background:#11A5F5;
+	border-radius:2px;
+	border:0;
+	color:#fff;
+}
+.main .r ul li:nth-child(5){
+	border:0;
+}
+.main .r ul li:first-child{
+	background:url(../img/gerenzhongxin/2-01%20button.fw.png) left top;
+	border:0;
+	width:85px;
+	height:30px;
+} 
+.main .r ul li:last-child{
+	background:url(../img/gerenzhongxin/2-01%20button.fw.png) left bottom;
+	border:0;
+	width:85px;
+	height:30px;
+} 

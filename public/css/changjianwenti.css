@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+.cent{
+	width:1085px;
+	margin:23px auto 0;
+
+
+}
+.cent .l{
+	z-index:9;
+	position:fixed;
+	width:270px;
+	height:526px;
+	border:1px solid #E1E1E1;
+	background:#fff;
+	border-bottom:1px solid #C1C1C1;
+	border-top:0 none;
+	float:left;
+}
+.cent .l li{
+	line-height:66px;
+	text-align:center;
+	font-size:18px;
+	font-family:微软雅黑;
+	cursor:pointer;
+}
+.cent .l .act{
+	background:#F8F8F8;
+}
+.cent .r{
+	float:right;
+	width:783px;
+	background:#FFF;
+	border:1px solid #E1E1E1;
+	border-top:0 none;
+}
+.cent .r h3{
+	height:66px;
+	background:#F8F8F8;
+}
+.cent .r .guanyu{
+	width:712px;
+	margin-top:25px;
+	margin-left:32px;
+}
+.cent .r .guanyu p{
+	height:34px;
+	border-bottom:1px dashed #DDDDDD;
+	font-size:22px;
+	font-family:微软雅黑;
+}
+
+.cent .r .guanyu ul li{
+	cursor:pointer;
+	background:url(../img/wenti.png) no-repeat 0 17px;
+	padding-left:39px;
+	line-height:50px;
+	font-size:20px;
+	color:#C31D1F;
+	font-family:微软雅黑;
+	position:relative;
+
+}
+.cent .r .guanyu ul li p{
+	padding-bottom:20px;
+	height:600px;
+	display:none;
+	top:50px;
+	left:0;
+
+	width:600px;
+	background:#fff;
+	height:auto;
+	z-index:999;
+	cursor:auto;
+	border:0 none;
+}
+.cent .r .guanyu ul li p img{
+	margin:0 auto;
+}
+.cent .r .guanyu ul li p s{
+	text-indent:2em;
+	display:inline-block;
+	font-size:16px;
+	font-family:微软雅黑;
+	color:#414343;
+	line-height:24px;
+}
+.cent .r .guanyu ul li p span{
+	font-size:16px;
+	font-family:微软雅黑;
+	color:#414343;
+	display:inline-block;
+	padding-bottom:20px;
+	font-weight:bold;
+}
+

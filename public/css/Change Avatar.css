@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+/*banner部分*/
+.zhong .l li ol li a{
+	display:block;
+	width:167px;
+	height:38px;
+}
+.banner{
+	position: relative;
+	margin:20px auto;
+	width:1083px;
+}
+.banner_zi{
+	position: absolute;
+	top: 38px;
+	left: 77px;
+	font-size: 14px;
+	color: #fff;
+	font-family: 微软雅黑;
+	line-height: 28px;
+}
+.banner_zi h2{
+	display: inline-block;
+	font-weight: normal;
+	font-size: 20px;
+}
+.banner_zi span{
+	color: #FFDF00;
+}
+.banner_zi p:last-child{
+	background: url(../img/gerenzhongxin/lb.png) no-repeat left center;
+	padding-left: 28px;
+}
+/*中间部分*/
+/*中间部分*/
+.zhong{
+	width:1083px;
+	height:auto;
+	margin:0 auto;
+}
+.zhong .l{
+	width:167px;
+	height:auto;
+	float:left;
+	border:1px solid #DDDDDD;
+	border-top:0 none;
+	border-bottom:0 none;
+	z-index:2;
+}
+.zhong .l li span{
+	display:block;
+	height:43px;
+	background:#fff;
+	border-bottom:1px solid #DDDDDD;
+	border-top:2px solid #656565;
+	font-size:18px;
+	font-family:微软雅黑;
+	text-align:center;
+	line-height:43px;
+	cursor:pointer;
+}
+.zhong .l li ol{
+	display:none;
+}
+.zhong .l li ol .act{
+		background:url(../img/gerenzhongxin/hover.fw.png) 0px -1px;
+		padding-right:11px;
+		border-bottom:0 none;
+		color:#FD6D00;
+}
+.zhong .l li ol .act a{
+		color:#FD6D00;
+}
+.zhong .l li ol li:hover {
+	background:url(../img/gerenzhongxin/hover.fw.png) 0px -1px;
+		padding-right:11px;
+		border-bottom:0 none;
+}
+.zhong .l li ol li:hover a{
+	color:#FD6D00;
+}
+.zhong .l li ol li{
+	width:167px;
+	height:38px;
+	border-bottom:1px solid #DDDDDD;
+	text-align:center;
+	line-height:38px;
+	cursor:pointer;
+	font-size:14px;
+	background:#F8F8F8;
+}
+.zhong .r{
+	position:relative;
+	width:833px;
+	height:auto;
+	float:right;
+	margin-bottom:25px;
+
+	background:#fff;
+	padding:30px;
+		padding-bottom:20px;
+}
+.zhong .r h3{
+	font-size:24px;
+	font-family:微软雅黑;
+	font-weight:normal;
+	float:left;
+}
+.zhong .r .btn{
+	float:right;
+}
+.zhong .r .btn a{
+	display:inline-block;
+	width:78px;
+	height:30px;
+	border-radius:3px;
+	border:0 none;
+	background:#FD9B52;
+	text-align:center;
+	line-height:30px;
+	margin-right:5px;
+	color:#fff;
+}
+.zhong .r .btn a:first-child{
+	background:#118BDE;
+}
+.zhong .r .r_b{
+	border:1px solid #f4f4f4;
+	
+	width:830px;
+	margin-top:5px;
+}
+.zp{
+	border-bottom:1px solid #f4f4f4;
+	padding:20px;
+	float:left;
+}
+.shangchuan{
+	float:left;
+	border:1px solid #f4f4f4;
+	height:185px;
+	
+	
+}
+.shangchuan input:first-child{
+	width:346px;
+	height:36px;
+	background:url(../img/xiugaiziliao/input_bj.jpg) repeat-x;
+	border:1px solid #AAADB2;
+}
+.shangchuan button{
+	width:71px;
+	height:36px;
+	border:1px solid #AAADB2;
+}
+
+
+
+.filename { float:left; display:inline-block; outline:0 none; height:32px; width:180px; margin:0; padding:8px 10px; overflow:hidden; cursor:default; border:1px solid; border-right:0; font:9pt/100% Arial, Helvetica, sans-serif; color:#777; text-shadow:1px 1px 0px #fff; text-overflow:ellipsis; white-space:nowrap; -moz-border-radius:5px 0px 0px 5px; -webkit-border-radius:5px 0px 0px 5px; border-radius:5px 0px 0px 5px; background:#f5f5f5; background:-moz-linear-gradient(top, #fafafa 0%, #eee 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafafa), color-stop(100%, #f5f5f5)); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#f5f5f5', GradientType=0);
+border-color:#ccc; -moz-box-shadow:0px 0px 1px #fff inset; -webkit-box-shadow:0px 0px 1px #fff inset; box-shadow:0px 0px 1px #fff inset; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;
+height:37px; width:364px; border-radius:0; border:1px solid #AAADB2;}
+.button { float:left; height:32px; display:inline-block; outline:0 none; padding:8px 12px; margin:0; cursor:pointer; border:1px solid; font:bold 9pt/100% Arial, Helvetica, sans-serif; -moz-border-radius:0px 5px 5px 0px; -webkit-border-radius:0px 5px 5px 0px; border-radius:0px 5px 5px 0px; -moz-box-shadow:0px 0px 1px #fff inset; -webkit-box-shadow:0px 0px 1px #fff inset; box-shadow:0px 0px 1px #fff inset; width:71px; height:36px; border-radius:0; background:url(../img/xiugaiziliao/liulan_bj.jpg) repeat-x; border:#AAADB2 solid 1px; margin-left:10px; font-size:14px; font-family:宋体; font-weight:normal;}
+.uploader input[type=file] { position:absolute; top:146px; right:136px; bottom:0; border:0; padding:0; margin:0; height:30px; cursor:pointer; filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0; opacity:0; width:430px; }
+.uploader {
+	padding-top:76px;
+	padding-left:100px;
+	margin-left:185px;
+	border:1px solid #f4f4f4;
+	border-top:0 none;
+	height:109px;
+}
+.uploader p{
+	margin-top:20px;
+	font-size:14px;
+	color:#FF0101;
+}
+.tijiao{
+	width:116px;
+	height:37px;
+	background:url(../img/xiugaiziliao/tijiao_bj.jpg) repeat-x;
+	border:1px solid #E18E18;
+	color:#fff;
+	font-size:14px;
+	margin:15px 0;
+	border-radius:3px;
+	margin-left:617px;
+}

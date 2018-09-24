@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+.r h2{
+	font-size:24px;
+	color:#414343;
+	font-family:微软雅黑;
+		font-weight:normal;
+}
+.r h2 span a{
+	color:#11A5F5;
+	font-size:16px;
+	padding-left:20px;
+}
+.r p{
+	float:left;
+	font-size:16px;
+	font-family:微软雅黑;
+	color:#414343;
+	margin-right:170px;
+}
+.r p span{
+	color:#FE6D00;
+}
+.r .btm{
+	margin-top:40px;
+}
+.zhong .r{
+	border:1px solid #E0E2E4;
+}
+.zhong .cent{
+	padding:0;
+	width:893px;
+}
+.zhong .cent_l,.zhong .cent_r{
+	float:left;
+}
+.zhong .cent_r{
+	margin-left:35px;
+}
+.zhong .cent_r h2{
+	font-size:18px;
+	padding-top:24px;
+	height:38px;
+}
+.cent_r_l,cent_r_r{
+	float:left;
+}
+.cent_r_l li{
+	width:141px;
+	height:56px;
+	border:1px solid #E0E0E0;
+	margin-bottom:10px;
+	cursor:pointer;
+}
+.cent_r_l li a{
+			color:#666;
+}
+.cent_r_l li:first-child a{
+	display:block;
+	width:115px;
+	height:40px;
+	margin:10px;
+	background:url(../img/gerenzhongxin/zhifubao.png) no-repeat center center;
+}
+.cent_r_l li:hover {
+	border-color:#EF8118;
+}
+.cent_r_l li:hover a{
+	color:#EF8118;
+}
+.cent_r_l li:hover i{
+	background:url(../img/gerenzhongxin/icon.png) no-repeat -61px 0;
+}
+.cent_r_l li:nth-child(2) i,.cent_r_l li:nth-child(3) i{
+	display:block;
+	width:49px;
+	height:32px;
+	background:url(../img/gerenzhongxin/icon.png) no-repeat 0 0;
+	float:left;
+	padding-right:5px;
+}
+.cent_r_l li:nth-child(2),.cent_r_l li:nth-child(3){
+	padding-top:12px;
+	padding-left:12px;
+	width:129px;
+	height:44px;
+	font-size:18px;
+	font-family:微软雅黑;
+	font-weight:bold;
+	line-height:26px;
+}
+.cent_r_r{
+	border: 1px dashed #FBDA9B;
+padding: 15px 20px 20px;
+color: #999;
+float:right;
+margin-left:25px;
+}
+h5{
+	margin-top: 10px;
+margin-bottom: 10px;
+}
+.cent_r_r p{
+	margin:0;
+	color:#999;
+	font-size:14px;
+	line-height:20px;
+}
+.cent_r_r .last{
+	color:#FE6D00;
+	margin-top:10px;
+}
+.zhong .two h2 span{
+	color:#11A5F5;
+	padding-left:10px;
+}
+.yhk .ka{
+	background:url(../img/gerenzhongxin/3-03-01%20logo.png) 10px center no-repeat;
+	padding-top:0px;
+	padding-left:0px;
+	font-size:20px;
+	font-family:微软雅黑;
+	padding-top:8px;
+	padding-left:57px;
+	width:225px;
+	height:50px;
+	margin-top:15px;
+}
+.yhk .ka span{
+	color:#999;
+	font-size:12px;
+	display:inline-block;
+	padding-top:5px;
+}
+.yhk a:hover{
+	border:1px solid #EF8118; 
+}
+.yhk a{
+	width:282px;
+	height:58px;
+	display:block;
+	border:1px solid #E0E0E0;
+	margin-bottom:14px;
+	background:url(../img/gerenzhongxin/3-03_r2_c2.png) center center no-repeat;
+}
+

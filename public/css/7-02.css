@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+.r h2{
+	font-size:20px;
+	font-family:微软雅黑;
+	color:#434346;
+	height:38px;
+	border-bottom:1px solid #f4f4f4;
+}
+.r h2 span{
+	font-size:12px;
+	font-family:宋体;
+	color:#9B9B9B;
+	font-weight:normal;
+	padding-left:110px;
+}
+.r .jianyi{
+	  height: 62px;
+  border-bottom: 1px solid #f4f4f4;
+  padding-top: 17px;
+  line-height: 27px;
+  color: red;
+  padding-left:30px;
+}
+.r table{
+	font-size:14px;
+	margin-top:30px;
+	height:350px;
+	margin-left:30px;
+}
+.r table tr td:first-child{
+	width:100px;
+}
+.r table .text{
+	width:346px;
+	height:36px;
+	background:url(../img/xiugaiziliao/input_bj.jpg) repeat-x;
+	border:1px solid #ABADB3;
+	line-height:36px;
+	padding-left:5px;
+}
+.r table .btn{
+	width:71px;
+	height:36px;
+	background:url(../img/xiugaiziliao/liulan_bj.jpg) repeat-x;
+	border:1px solid  #ABADB3;
+	margin-left:5px;
+	position:relative;
+	top:-2px;
+}
+.r table td{
+	position:relative;
+
+}
+.r table .tu{
+	position:absolute;
+	width:429px;
+	left:0px;
+	opacity:0;
+	height:39px;
+}
+.r table textarea{
+	width:530px;
+	height:151px;
+	background:url(../img/xiugaiziliao/textch_bj.jpg) repeat-x;
+	padding:5px;
+}
+.r table button{
+	width:116px;
+	height:37px;
+	border:1px solid #E29016;
+	border-radius:3px;
+	background:#FFCB17;
+	font-size:16px;
+	font-family:微软雅黑;
+	color:#A33300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

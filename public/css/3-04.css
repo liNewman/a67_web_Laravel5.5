@@ -1,0 +1,130 @@
+/* CSS Document */
+
+.r_top h3{
+	float:left;
+	color:#414343;
+	font-size:24px;
+	font-family:微软雅黑;
+	font-weight:normal;
+}
+.r_top h3 i{
+	font-size:14px;
+	display:inline-block;
+	padding-top:15px;
+}
+.r_top span{
+	float:right;
+	margin-top:44px;
+	background:url(../img/gerenzhongxin/3-04.fw.png) no-repeat -36px -174px;
+	padding-left:20px;
+}
+.r_top {
+	padding-bottom:8px;
+	border-bottom:1px solid #F1F0F0;
+}
+.gonggao{
+	display:inline-block;
+	margin-top:18px;
+	font-size:14px;
+	font-family:微软雅黑;
+}
+.r_btm ul li {
+	float:left;
+	margin-right:5px;
+}
+.r_btm {
+	margin-top:14px;
+}
+.r_btm ul li a{
+	display:block;
+	width:92px;
+	height:42px;
+	text-align:center;
+	line-height:42px;
+	color:#666;
+	font-size:14px;
+	font-family:微软雅黑;
+	border:1px solid #E4E6E7;
+	background:#fff;
+}
+.r_btm ul li .act{
+	border-top:2px solid #1E7AC2;
+	border-bottom:0;
+	color:#1E7AC2;
+	font-weight:bold;
+}
+.licaixiangmu{
+	height:294px;
+	border-top:1px solid #E4E6E7;
+	width:785px;
+	padding-top:106px;
+	padding-left:48px;
+	margin-top:-1px;
+}
+.licaixiangmu ul li{
+	padding-top:20px;
+	font-size:14px;
+	font-family:微软雅黑;
+	margin-right:75px;
+}
+.licaixiangmu ul li:first-child{
+	background:url(../img/gerenzhongxin/3-04.fw.png) 0 0 no-repeat;
+	padding-left:68px;
+
+	height:60px;
+	font-size:18px;
+
+}
+
+.licaixiangmu ul li b{
+	display:inline-block;
+	text-align:center;
+	width:56px;
+	margin-top:3px;
+	color:#FF7E00;
+}
+.licaixiangmu ul li button{
+	width:153px;
+	height:48px;
+	background:#13A7F5;
+	color:#fff;
+	font-size:22px;
+	border:0;
+	border-radius:6px;
+	font-weight:bold;
+	margin-top:-10px;
+}
+.licaixiangmu .two{
+	margin-top:45px;
+}
+.licaixiangmu .two li:first-child{
+	background-position:0 -90px;
+}
+.licaixiangmu .two li button{
+	background:#099D09;
+}
+.tab2 {
+	margin-top:15px;
+}
+.tab2 ul{
+	margin-bottom:20px;
+}
+.tab2 ul li{
+	line-height:24px;
+}
+.tab2 ul li:first-child{
+	font-size:14px;
+	font-family:微软雅黑;
+	font-weight:bold;
+}
+.tab2 ul li a{
+	display:block;
+  background: #CCD0D9;
+  line-height:24px;
+  text-align:center;
+  border-radius: 40px;
+  margin-left: 15px;
+  height: 28px;
+  text-align: center;
+  color: #fff;
+}

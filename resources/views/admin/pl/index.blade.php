@@ -54,11 +54,11 @@
                 <div class="date-dz">
                     <span class="date-dz-left pull-left comment-time">2017-5-2 11:11:39</span>
                     <div class="date-dz-right pull-right comment-pl-block">
-                        <input type="hidden" name="id" value="{{ $val->id }}">
+                        <input type="hidden" name="id" value="{{ $val->id }}" class="fid">
                         <a href="/pl/delete/{{ $val->id }}" class="removeBlock">删除</a>
-                        <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left">回复</a>
+                        <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left" data-id="{{ $val->id }}">回复</a>
                         <span class="pull-left date-dz-line">|</span>
-                        <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">666</i>)</a>
+                        <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">888</i>)</a>
                     </div>
                 </div>
                 <div class="hf-list-con">
@@ -129,6 +129,7 @@
 <!--点击回复动态创建回复块-->
 <script type="text/javascript">
     $('.comment-show').on('click','.pl-hf',function(){
+        var fid=$(this).attr("data-id");
         //获取回复人的名字
         var fhName = $(this).parents('.date-dz-right').parents('.date-dz').siblings('.pl-text').find('.comment-size-name').html();
         //回复@
@@ -136,30 +137,9 @@
         //var oInput = $(this).parents('.date-dz-right').parents('.date-dz').siblings('.hf-con');
         var fhHtml = '<div class="hf-con pull-left"> ' +
                 '{{csrf_field()}}'+
-            '<textarea class="content comment-input hf-input" placeholder="" onkeyup="keyUP(this)" id="con2">' +
-            '</textarea> <a href="javascript:;" class="hf-pl" id="btn2">回复</a></div>'
+            '<textarea class="content  comment-input hf-input"  placeholder="" onkeyup="keyUP(this)" >' +
+            '</textarea><input type="hidden" value="'+fid+'" class="fids"> <a href="javascript:;" class="hf-pl">回复</a></div>'
         ;
-        $("#btn2").click(function(){
-            var con2 = $("#con2").val();
-            // console.log(data);
-            alert(con2);
-            $.ajax({
-                type:'post',
-                dataType:'json',
-                url:'http://www.admin_a67.com/admin/pl/addSave2',
-                data:{
-                    _token:$("input[name='_token']").val(),returnScores:con2,name:123
-                },
-                success:function(res){
-                    if (res.code) {
-                        location.reload(0)
-                    }else {
-                        alert(res.msg);
-                        location.reload(0);
-                    }
-                },
-            });
-        });
         //显示回复
         if($(this).is('.hf-con-block')){
             $(this).parents('.date-dz-right').parents('.date-dz').append(fhHtml);
@@ -201,11 +181,11 @@
             dataType:'json',
             url:'/pl/create1',
             data:{
-                _token:$("input[name='_token']").val(),content:oHfVal,name:123,fid:$("input[name='id']").val(),
+                _token:$("input[name='_token']").val(),content:oHfVal,name:123,fid:$(this).parents('div').children('.fids').val(),
             },
             success:function(res){
                 if (res.code) {
-                    location.reload(0)
+                   location.reload(0)
                 }else {
                     alert(res.msg);
                     location.reload(0);
@@ -254,7 +234,7 @@
             dataType:'json',
             url:'/pl/create',
             data:{
-             _token:$("input[name='_token']").val(),content:content,name:678
+             _token:$("input[name='_token']").val(),content:content,name:567
             },
             success:function(res){
                 if (res.code) {

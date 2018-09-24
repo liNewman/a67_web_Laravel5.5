@@ -16,6 +16,16 @@ Route::get('/', function () {
 });
 
 
+
+
+
+
+
+
+
+
+
+
 Route::get('student/index','StudentController@index');
 
 
@@ -57,6 +67,15 @@ Route::group(['prefix'=>'pl'],function (){
     Route::get('delete/{id}','Admin\PinglunController@delete');
 });
 
+//万能查询
+Route::group(['prefix'=>'set'],function (){
+   Route::get('index','Admin\SetController@index');
+
+
+});
+
+
+
 
 //管理后台的路由
 Route::group(['prefix'=>'admin'],function(){
@@ -69,8 +88,6 @@ Route::group(['prefix'=>'admin'],function(){
     Route::get("guess/result/{id?}",'Admin\GuessController@result');   //删除
     Route::post("guess/doresult",'Admin\GuessController@doresult');
     Route::get("guess/end/{id?}",'Admin\GuessController@end');
-
-
 
 
 
@@ -143,6 +160,16 @@ Route::group(['prefix'=>'admin'],function(){
     //评论列表
     Route::get('comment/list','Admin\CommentController@list');
     Route::get('Comment/delete','Admin\CommentController@delete');
+
+    //文本域
+    Route::get('text/index','Admin\TextController@index');
+
+    //日志
+    Route::get('log/index','Admin\LogController@index');
+
+    Route::post('log/addSave', 'Admin\LogController@addSave');
+
+    Route::get('log/delete/{id}','Admin\LogController@delete');
 
 
 

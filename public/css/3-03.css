@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+.r h3{
+	font-size:20px;
+	font-family:微软雅黑;
+	color:#414343;
+
+	height:44px;
+	border-bottom:1px dashed #FBDA9B;
+}
+.r h3 span{
+	font-size:18px;
+	color:#6C6C6C
+}
+.yinhangka{
+	float:left;
+	width:261px;
+	height:130px;
+	border:1px dashed #EBEBEB;
+	margin-top:30px;
+	background:url(../img/gerenzhongxin/3-03_r2_c2.png) center center no-repeat #fff;
+	cursor:pointer;
+	border-radius:3px;
+}
+.yinhangka:hover{
+	border-color:#F38D2E;
+}
+.yinhangka a{
+	display:block;
+	width:261px;
+	height:130px;
+}
+.r h4{
+	font-size:16px;
+	margin-bottom:3px;
+	font-family:微软雅黑;
+	color:#414343;
+}
+.shuoming {
+	margin-top:50px;
+}
+.shuoming p{
+	line-height:28px;
+	font-family:微软雅黑;
+	background:url(../img/gerenzhongxin/3-03%20p.png) no-repeat left 10px;
+	padding-left:20px;
+}
+.shuoming p span{
+	color:#FE7711;
+}
+.tj_top{
+	width:795px;
+	height:52px;
+	border:1px solid #FAEBCC;
+	border-radius:3px;
+	line-height:52px;
+	color:#896D3B;
+	background:url(../img/gerenzhongxin/3-03%20deng.png) 17px center no-repeat #FCF8E3;
+	padding-left:40px;
+	font-family:微软雅黑;
+}
+.tj_top span{
+	color:#FFB300;
+}
+.tianjia{
+	margin-top:15px;
+}
+select{
+	margin-right:30px;
+}
+.tj_btm table{
+	font-size:14px;
+	font-family:微软雅黑;
+	color:#999999;
+	font-weight:bold;
+	margin-left:96px;
+}
+.tj_btm table td{
+	height:70px;
+	padding-right:20px;
+}
+.tj_btm table td input{
+	width:351px;
+	height:28px;
+	background:url(../img/xiugaiziliao/input_bj.jpg) repeat-x;
+	border:1px solid #CCCCCC;
+	padding-left:5px;
+		border-radius:2px;
+}
+.tj_btm table .y{
+	text-align:right;
+}
+.tj_btm table td button{
+	border:0 none;
+	width:358px;
+	height:38px;
+	background:#11A5F5;
+	color:#fff;
+	border-radius:2px;
+}
+.zhanghu{
+	float:left;
+	  margin-top: 30px;
+	  margin-right:20px;
+	  border:1px solid #EBEBEB;
+	  border-radius:3px;
+	  width:261px;
+	  height:130px;
+}
+.zhanghu:hover{
+	border-color:#F38D2E;
+}
+.box .top{
+	overflow:hidden;
+	width:261px;
+	height:89px;
+	background:pink;
+	background:url(../img/gerenzhongxin/3-03-01%20logo.png) no-repeat 22px center;
+}
+.box .top p{
+	font-size:16px;
+	margin-top:26px;
+	margin-left:70px;
+}
+.box .top p:last-child{
+	margin-top:5px;
+}
+.box .btm{
+	background:#FBFBFB;
+	width:261px;
+	height:40px;
+	border-top:1px dashed #EBEBEB;
+	border-radius:3px;
+	line-height:40px;
+	text-align:center;
+	font-family:微软雅黑;
+	font-size:14px;
+	color:#999;
+	position:relative;
+}
+.box .btm i{
+	position:absolute;
+	width:16px;
+	height:16px;
+	background:url(../img/gerenzhongxin/3-03-01%20.fw.png) no-repeat left top;
+	top:10px;
+	right:20px;
+}
+.box .btm i:hover{
+	background-position:right top;
+}
+.box .btm i a{
+	width:16px;
+	height:16px;
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

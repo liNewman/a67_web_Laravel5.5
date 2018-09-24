@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+.r h2 {
+	font-size:20px;
+	font-family:微软雅黑;
+		  height:70px;
+}
+.r h2 span{
+	font-size:14px;
+	font-weight:normal;
+	color:#ABABAB;
+	font-family:宋体;
+	  padding-left: 145px;
+
+}
+.r h2 .lan{
+	color:#4294CE;
+}
+.r h2 b{
+	color:#FFBA00;
+}
+.r .tab p{
+	margin-right:5px;
+	font-size:16px;
+	font-family:微软雅黑;
+	padding:0 12px;
+	height:41px;
+	line-height:41px;
+	border:1px solid #E4E6E7;
+	float:left;
+	cursor:pointer;
+	background:#F8F8F8;
+}
+.r .tab .act{
+	border-top:2px solid #1E7AC2;
+	background:#fff;
+	height:40px;
+	border-bottom:1px solid #fff;
+	color:#1E7AC2;
+	font-weight:bold;
+}
+.r .cent{
+	border-top:1px solid #DDDDDD;
+	
+	margin-top:-1px;
+	padding-top:20px;
+}
+.r .cent .pinglun{
+	margin-top:30px;
+	border-bottom:1px solid #F4F4F4;
+	padding-bottom:20px;
+	overflow:hidden;
+	position:relative;
+}
+.r .cent .pinglun .lft{
+	float:left;
+}
+.r .cent .pinglun .pinglun_r{
+  float: left;
+  margin-left: 15px;
+  line-height: 23px;
+  margin-top: -4px;
+}
+.r .cent .pinglun .pinglun_r h3 .juse{
+	color:#FE6D00;
+	font-weight:normal;
+	padding-right:16px;
+}
+.r .cent .pinglun .pinglun_r h3{
+	color:#9A9A9A;
+	font-size:14px;
+;
+}
+.r .cent .pinglun .pinglun_r h3 .lan{
+	color:#4095CE;
+}
+.r .cent .pinglun .pinglun_r .tm{
+	color:#9A989B;
+}
+.r .cent .pinglun .pinglun_r span{
+  font-size:14px;}
+
+.r .cent .pinglun .btn{
+	color:#4095CE;
+	text-align:right;
+	margin-top:16px;
+}
+.zhong .r .cent .btn span{
+	cursor:pointer;
+	color:#4095CE;
+	padding-right:5px;
+	padding-left:5px;
+	
+}
+.zhong .r .btm{
+	border:1px solid #E6E6E6;
+	width:746px;
+	margin:0 auto;
+	height:37px;
+	background:#F9F9F9;
+	padding-left:8px;
+	line-height:37px;
+	margin-top:30px;
+}
+.zhong .r .btm input{
+	position:relative;
+	top:3px;
+}
+.zhong .r .btm .juse{
+	color:#FF6600;
+	padding-left:30px;
+}
+.zhong .r .btm ul {
+	overflow:hidden;
+	margin-top:7px;
+	float:right;
+	margin-right:10px;
+}
+.zhong .r .btm .btm_l{
+	float:left;
+}
+.zhong .r .btm ul li{
+			cursor:pointer;
+	margin-right:2px;
+	float:left;
+}
+.zhong .r .btm ul li:first-child {
+	background:url(../img/gerenzhongxin/5-01%20shang%20yi%20ye%20w.fw.png) top left;
+	width:60px;
+	height:24px;
+}
+.zhong .r .btm ul li:last-child{
+		background:url(../img/gerenzhongxin/5-01%20shang%20yi%20ye%20w.fw.png) left bottom;
+
+	width:60px;
+	height:24px;
+}
+.zhong .r .btm .jilu{
+	padding-left:430px;
+	font-weight:normal;
+}
+.zhong .r{
+	color:#666;
+}
+
+
+
+
+
+
+.zhong .r .cent .h2 .cent_cent{
+	margin-top:38px;
+	margin-left:60px;
+}
+.zhong .r .cent .h2 .cent_cent p{
+	color:#FB6D01;
+	font-weight:bold;
+	height:28px;
+}
+.zhong .r .cent .h2 .cent_cent .huifu{
+	line-height:24px;
+}
+.zhong .r .cent .h2 .cent_cent b{
+	color:#4095CE;
+	font-weight:normal;
+	padding-right:20px;
+}
+
+
+.zhong .r .cent .h2,.zhong .r .cent .h3{
+	display:none;
+}
+.zhong .r .cent .h3 .bianji,.zhong .r .cent .h2 .bianji{
+	margin-top:12px;
+	margin-left:65px;
+}
+.zhong .r .cent .h3 .bianji textarea,.zhong .r .cent .h2 .bianji textarea{
+	width:730px;
+	height:80px;
+	border:1px solid #C1C1C1;
+	padding:5px;
+	background:url(../img/gerenzhongxin/7-01-01_tech_bj.png) repeat-x;
+}
+.zhong .r .cent .h3 .bianji p,.zhong .r .cent .h2 .bianji p{
+	margin-top:26px;
+	height:26px;
+	color:#000000;
+	text-align:right;
+	margin-right:50px;
+}
+.zhong .r .cent .h3 .bianji .juse,.zhong .r .cent .h2 .bianji .juse{
+	color:#FF3334;
+}
+.zhong .r .cent .h3 .bianji .btn button,.zhong .r .cent .h2 .bianji .btn button{
+	width:87px;
+	height:24px;
+	border:1px solid #E39416;
+	border-radius:3px;
+	background:url(../img/gerenzhongxin/5-01%20button_bj.png) repeat-x;
+	color:#A83D04;
+}
+.zhong .r .cent .h3 .bianji .btn button:last-child,.zhong .r .cent .h2 .bianji .btn button:last-child{
+	background:url(../img/gerenzhongxin/button%205-01%20querenbianji_bj.png) repeat-x;
+	border:1px solid #CBCBCB;
+	color:#4E4E4E;
+	margin-left:20px;
+}
+.zhong .r .cent .h3 .bianji .btn2,.zhong .r .cent .h2 .bianji .btn2{
+	margin:0;
+	margin-right:25px;
+}
+.zhong .r .cent .h3 .pinglun .btn .act,.zhong .r .cent .h2	 .pinglun .btn .act{
+	color:#FF7E00;
+}
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.r h2{
+	font-size:20px;
+	font-family:微软雅黑;
+	color:#999999;
+}
+.r h2 span{
+	font-size:16px;
+	color:#666;
+}
+.r p {
+	width:690px;
+	height:102px;
+	border:1px solid #FAEBCC;
+	border-radius:3px;
+	background:#FCF8E3;
+	margin-top:24px;
+	padding-top:20px;
+	padding-left:16px;
+	padding-right:22px;
+		line-height:24px;
+		color:#7B5C25;
+}
+.r p span:first-child{
+	text-indent:2em;
+	display:inline-block;
+	background:url(../img/gerenzhongxin/3-03%20deng.png) left 3px no-repeat;
+}
+.r .tu{
+	background:url(../img/gerenzhongxin/3-02-01.png) no-repeat;
+	width:790px;
+	height:939px;
+	margin-top:24px;
+	display:block;
+}
+.r h3{
+	font-size:18px;
+	font-family:微软雅黑;
+}
+.r .guiding{
+	font-size:14px;
+	font-family:微软雅黑;
+	margin-top:15px;
+	line-height:20px;
+}
+.r .guiding span a {
+	color:#115A92;
+}
+.r ul li a{
+
+	color:#999999;
+}
+.r ul{
+	margin-bottom:20px;
+}
+.r ul li span{
+	padding:0 20px;
+}
+.r ul li{
+		float:left;
+		color:#E0E4EB;
+		font-size:14px;
+		font-family:微软雅黑;
+		line-height:24px;
+}
+

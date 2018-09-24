@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*中间部分*/
+.denglu{
+	width:1086px;
+	height:469px;
+	background:#fff;
+	position:relative;
+	margin:21px auto 25px;
+}
+.denglu_top{
+	background:#fafafa;
+	height:49px;
+	border-bottom:1px solid #F4F4F4;
+}
+.denglu_top p{
+	width:78px;
+	height:49px;
+	border:0 none;
+	border-right:1px #F4F4F4 solid;
+	float:left;
+	text-align:center;
+	line-height:49px;
+	cursor:pointer;
+	background:#F8F8F8;
+}
+.denglu_top .act{
+	border-top:3px #656565 solid;
+	height:47px;
+	font-weight:bold;
+	background:#fff;
+}
+.denglu_top p a {
+	height:47px;
+	width:78px;
+	display:block;
+}
+.denglu .Ad{
+	height:68px;
+	border-bottom:1px #F4F4F4 solid;
+	line-height:68px;
+	padding-left:12px;
+	font-size:12px;
+}
+.denglu .Ad span{
+	color:#ABABAB;
+}
+.denglu .Ad .hei{
+	color:#666;
+}
+.denglu .Ad .red{
+	color:#C21C20;
+	font-weight:bold;
+}
+.yonghu,.mima{
+	width:535px;
+	height:76px;
+	border-bottom:1px #F4F4F4 solid;
+	line-height:76px;
+	font-size:16px;
+	padding-left:101px;
+}
+.mima{
+	width:518px;
+ padding-left:113px;
+}
+.yonghu p,.mima p{
+	float:left;
+	font-size:12px;
+}
+.yonghu input,.mima input{
+	font-size:20px;
+	float:left;
+	height:36px;
+	border:1px solid #AAADB4;
+	width:255px;
+	margin-top:20px;
+	line-height:36px;
+	background:url(../img/input_bj.jpg) repeat-x ;
+	padding-left:5px;
+}
+.xiaci{
+	height:58px;
+	border-bottom:1px solid #F4F4F4;
+	width:631px;
+	line-height:58px;
+	font-size:12px;
+
+}
+.xiaci div{
+	margin-left:141px;
+}
+.xiaci input{
+	margin-left:7px;
+	margin-right:5px;
+	margin-top:14px;
+	width:15px;
+	height:30px;
+	float:left;	
+}
+.xiaci input,.xiaci span{
+	float:left;
+}
+.denglu .btn button{
+
+	width:118px;
+	height:39px;
+	line-height:38px;
+	text-align:center;
+	border:1px solid #e7a014;
+	font-size:16px;
+	color:#a26d0f;
+	background:url(../img/btn_denglu_bj.jpg) repeat-x;
+	font-family:微软雅黑;
+}
+.denglu .btn span{
+	padding:0 10px;
+}
+.denglu .btn a{
+	color:#4095cc;
+	padding-left:5px;
+}
+.denglu .btn{
+	margin:20px 0 0 148px;
+}
+.denglu .banner {
+	position:absolute;
+	right:34px;
+	top:119px;
+	padding-top:20px;
+	padding-left:27px;
+	border-left:1px #f4f4f4 solid;
+}
+
+
+

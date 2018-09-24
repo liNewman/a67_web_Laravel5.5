@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+
+
+/*中间部分*/
+.denglu{
+	width:1086px;
+	height:512px;
+	background:#fff;
+	position:relative;
+	margin:21px auto 25px;
+	position:relative;
+}
+.xieyi{
+		display:none;
+	position:absolute;
+	width:849px;
+	height:619px;
+	border:6px solid #E5E5E5;
+	background:#fff;
+	z-index:999999;
+	top:-58px;
+	left:105px;
+}
+.xieyi i{
+	cursor:pointer;
+	width:32px;
+	height:32px;
+	position:absolute;
+	top:-15px;
+	right:-15px;
+	background:url(../img/huihua_Banner/anniu%20guanbi.fw.png) no-repeat;
+}
+.xieyi button{
+	border:0 none;
+	font-size:14px;
+	font-family:微软雅黑;
+	width:152px;
+	height:42px;
+	background:#F15E54;
+	color:#fff;
+	border-bottom:1px solid #C8453D;
+	border-radius:3px;
+	margin-top:25px;
+	margin-left:344px;
+}
+.xieyi p{
+	width:848px;
+	height:68px;
+	background:url(../img/huihua_Banner/jinggao_top.fw.png) center center;
+}
+
+.xieyi .check{
+
+	overflow:auto;
+	border:1px solid #666;
+	width:778px;
+	font-size:12px;
+	height:400px;
+	margin-left:26px;
+	line-height:24px;
+	background:#fff;
+	padding:20px 10px;
+}
+
+
+.denglu_top{
+	background:#fafafa;
+	height:49px;
+	border-bottom:1px solid #F4F4F4;
+	:
+}
+.denglu_top p{
+	width:78px;
+	height:49px;
+	border:0 none;
+	border-right:1px #F4F4F4 solid;
+	float:left;
+	text-align:center;
+	line-height:49px;
+	cursor:pointer;
+	background:#F8F8F8;
+}
+.denglu_top .act{
+	border-top:3px #656565 solid;
+	height:47px;
+	font-weight:bold;
+	background:#fff;
+}
+.denglu_top p a {
+	height:47px;
+	width:78px;
+	display:block;
+
+}
+.denglu .Ad{
+	height:68px;
+	border-bottom:1px #F4F4F4 solid;
+	line-height:68px;
+	padding-left:12px;
+	font-size:12px;
+}
+.denglu .Ad span{
+	color:#ABABAB;
+}
+.denglu .Ad .hei{
+	color:#666;
+}
+.denglu .Ad .red{
+	color:#C21C20;
+	font-weight:bold;
+}
+.denglu span{
+	font-size:12px;
+}
+.denglu .zhucejiemian div span {
+
+	line-height:35px;
+	float:left;
+	text-align:right;
+	width:50px;
+
+}
+.denglu .zhucejiemian div input{
+	width:503px;
+	height:36px;
+	background:url(../img/input_bj.jpg) repeat-x;
+	border:1px solid #aaadb2;
+	float:right;
+	padding-left:8px;
+	color:#dadada;
+}
+.denglu .zhucejiemian div i {
+	position:absolute;
+	right:-171px;
+	top:8px;
+	display:inline-block;
+	width:120px;
+	color:#d40811;
+}
+.denglu .zhucejiemian div .yzm_shuaxin{
+	position:absolute;
+	right:7px;
+	top:6px;
+}
+.denglu .zhucejiemian div .yzm_shuaxin a{
+	background:url(../img/yanzhengma.jpg) no-repeat;
+	width:82px;
+	height:26px;
+	display:block;
+	float:left;
+	margin-right:7px;
+}
+.denglu .zhucejiemian div .yzm_shuaxin button{
+	width:26px;
+	height:25px;
+	border:1px solid #d9d9d9;
+	float:left;
+	margin:0;
+	background:url(../img/yzm_shuaxin_button.jpg) no-repeat #f0f0f0 center center;
+}
+.denglu .zhucejiemian div {
+	height:55px;
+	position:relative;
+}
+.denglu .zhucejiemian{
+	margin-top:60px;
+	margin-left:110px;
+	width:573px;
+}
+.denglu .zhucejiemian .red{
+	color:red;
+}
+.denglu .zhucejiemian p span{
+	float:light;
+}
+.denglu .zhucejiemian .check{
+	float:left;
+	margin:0 10px 0 0 ;
+}
+.denglu .zhucejiemian p {
+	margin-left:70px;
+}
+.denglu .zhucejiemian button{
+	width:505px;
+	height:49px;
+	background:url(../img/zhuce%20button_bj.jpg) repeat-x;
+	border:0 none;
+	color:#000 ;
+	font-size:20px;
+	font-family:微软雅黑;
+	margin:28px 0 0 68px ;
+	border-radius:4px;
+}
+.denglu .right_top {
+	position:absolute;
+	right:30px;
+	top:75px;
+}
+.denglu .right_top s{
+	padding:0 14px;
+}
+.denglu .tixing{
+	position:absolute;
+	top:180px;
+	right:47px;
+}
+.denglu .tixing p{
+	background:url(../img/huang%20tan%20hao.jpg) no-repeat;
+	width:19px;
+	height:20px;
+	float:left;
+	margin-right:5px;
+	margin-top:9px
+}
+.denglu .tixing span{
+	float:left;
+	line-height:20px;
+}
+
+.red_s{
+	color:#C21C20;
+}
+

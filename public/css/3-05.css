@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+.zhong h2{
+	font-size: 24px;
+line-height: 24px;
+font-weight:normal;
+font-family:微软雅黑;
+border-bottom:1px solid #F0F0F0;
+padding-bottom:14px;
+}
+.zhanghao {
+	margin-top:30px;
+}
+.zhanghao h3{
+	font-size:18px;
+	padding-left:12px;
+	border-left:5px solid #3399DB;
+}
+.zhanghao .box ul li {
+	width:30.33333%;
+	text-align:left;
+	font-size:14px;
+	color:#666;
+	font-weight:700;
+	float:left;
+	padding-left:3%;
+}
+.zhanghao .box{
+	width:420px;
+	height:215px;
+	border:1px solid #EEEEEE;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:10px;
+	margin-top:13px;
+}
+.zhanghao .box ul li a{
+	color:#1097E0;
+	font-weight:normal;
+
+
+}
+.zhanghao .box ul{
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #DDDDDD;
+}
+.zhanghao .box ul:last-child{
+	border-bottom:0;
+}
+.zhanghao .box ul li i {
+	background:url(../img/gerenzhongxin/ic.fw.png) no-repeat 0 0 ;
+	width:18px; height:18px;
+
+	float:left;
+	margin-top:13px;
+}
+.zhanghao .box ul li .zfb{
+	background-position:-2px -30px;
+	margin-top:15px;
+}
+.zhanghao .box ul li .sj{
+	background-position:-4px -70px;
+}
+.zhanghao .box ul li .tx{
+	background-position:-2px -110px;
+}
+.zhanghao .box ul li .mm{
+	background-position:-2px -151px;
+}
+
+.zhanghao .box ul li b{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	background:url(../img/gerenzhongxin/ic.fw.png) -2px -186px;
+	margin-top:15px;
+}
+.zhanghao .box ul li s{
+	display:inline-block;
+	width:18px;
+	height:12px;
+	background:url(../img/gerenzhongxin/ic.fw.png) -0px -216px;
+	margin-top:15px;
+}
+.zhanghao .box ul li u{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	background:url(../img/gerenzhongxin/ic.fw.png) -3px -244px;
+	margin-top:15px;
+}
+.zhanghao .box ul li:nth-child(3){
+	text-align:center;
+
+}
+.box input{
+	position:relative;
+	top:2px;
+}
+.box button{
+	width:50px;
+	height:30px;
+	border-radius:3px;
+	background:#12A5F5;
+	color:#fff;
+	border:0;
+	margin-top:22px;
+	margin-bottom:25px;
+}
+.zhong .r .two{
+	height:auto;
+}
+.changshi{
+	background:url(../img/gerenzhongxin/renzheng.fw.png)
+	display:block;
+	height:48px;
+	width:auto;
+}
+.box ul li {
+	position:relative;
+}
+.box ul li span{
+	float:left;
+}
+.box ul li em{
+	font-size:12px;
+	position:absolute;
+	top:29px;
+	left:29px;
+	z-index:1;
+	display:none;
+
+	width:58px;
+	height:48px;
+	background:url(../img/gerenzhongxin/renzheng.fw.png) 0 -4px;
+	line-height:56px;
+	text-align:center;
+	font-weight:normal;
+}
+.box ul li .chang{
+	background-position:0 -64px;
+	width:167px;
+	height:49px;
+  top: 28px;
+  left: 9px;
+}
+.box ul li .renzheng2{
+	background:url(../img/gerenzhongxin/renzheng.fw.png) 0 -64px;
+	width:167px;
+	height:49px;
+	left:-34px;
+}

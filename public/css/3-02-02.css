@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+.r h2 a {
+		font-size:20px;
+	font-family:微软雅黑;
+	color:#999999;
+}
+.r h2 span{
+	font-size:16px;
+	color:#666;
+}
+.jinggao{
+	font-size:14px;
+	font-family:微软雅黑;
+	color: #8A6D3B;
+	background:url(../img/gerenzhongxin/3-03%20deng.png) no-repeat 10px center;
+background-color: #FCF8E3;
+border-color: #FAEBCC;
+width:730px;
+height:52px;
+line-height:52px;
+border-radius:3px;
+border:1px solid #FAEBCC;
+margin-top:24px;
+padding-left:30px;
+}
+.jine h3{
+	float:left;
+	font-size:14px;
+	font-family:微软雅黑;
+	line-height:30px;
+	padding-right:10px;
+}
+.zhong .r .jine{
+	margin-top:20px;
+	margin-left:180px;
+}
+.zhong .r .jine input{
+	float:left;
+	width:95px;
+	height:28px;
+	border:1px solid #CCCCCC;
+	padding-left:3px;
+}
+.danxuan{
+	margin-left:285px;
+	position:relative;
+	top:2px;
+}
+.gouzi a{
+	color:#11A5F4;
+	font-size:14px;
+	font-family:微软雅黑;
+}
+.gouzi{
+	margin-top:26px;
+	margin-bottom:26px;
+}
+.zhong .r button{
+	height:38px;
+	width:90px;
+	border-radius:2px;
+	border:0;
+	background:#11A5F5;
+	font-size:14px;
+	color:#fff;
+	margin-left:285px;
+}
+.ucenter .box-shadow {
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #E0E2E4;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.016);
+    border-radius: 2px;
+    overflow: visible;
+}
+.article-new {
+    padding: 30px 30px 15px;
+    margin-left: -10px;
+}
+.ucenter .table tr td:first-child, .ucenter .table tr th:first-child {
+    padding-left: 8px;
+}
+.ucenter .table tr td, .ucenter .table tr th {
+    padding: 8px 4px;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #DDD;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
+    border-top: 1px solid #DDD;
+}
+table{
+	font-family:微软雅黑;
+	font-size:14px;
+
+}
+.background-color {
+    background-color: #F9F9F9;
+}

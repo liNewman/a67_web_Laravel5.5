@@ -13,7 +13,19 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 class Controller extends BaseController
 {
+
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+
+
+    public static function returnJson(array $data=[])
+    {
+        if (!headers_sent()){
+            header(sprintf('%s:%s','content-type','application/json'));
+        }
+        exit(json_encode($data));
+    }
+
 
 
 

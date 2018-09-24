@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document */
+/*banner部分*/
+
+.banner{
+	width:1083px;
+	height:auto;
+	margin:20px auto ;
+}
+/*中间内容部分*/
+.Artist{
+	width:1083px;
+	height:auto;
+	margin:0 auto;
+	padding-bottom:28px;
+	background:#fff;
+}
+.Artist .top{
+	height:50px;
+	background:#FAFAFA;
+	border-bottom:1px solid #f4f4f4;
+}
+.Artist .top h3{
+	font-size:16px;
+	font-weight:bold;
+	line-height:53px;
+	width:170px;
+	border-top:3px #656565 solid;
+	background:#fff;
+	padding-left:25px;
+	border-right:1px solid #f4f4f4;
+	box-sizing:border-box;
+	height:50px;
+}
+.Artist .top h3 span{
+	font-size:14px;
+}
+.Artist .cent{
+	width:1044px;
+	border:1px solid #f4f4f4;
+	height:auto;
+	margin:10px auto;
+	padding:0 7px;
+	margin-bottom:0;
+}
+.Artist .cent .t ul,.Artist .cent .t h3{
+	float:left;
+}
+.Artist .cent .t,.Artist .cent .diqu,.Artist .cent .xuexiao,.Artist .cent .huiyuan,.Artist .cent .pinyin {
+	padding:15px 0px 6px 5px;
+	border-bottom:1px dashed #DEDEDE;
+}
+.Artist .cent h3{
+	font-family:微软雅黑;
+	font-size:14px;
+	padding:3px ;
+	float:left;
+	color:#666;
+}
+.Artist .cent .diqu_r,.Artist .cent .pinyin ol{
+	float:left;
+}
+.Artist .cent  ul .act1{
+	border:1px solid #f4f4f4;
+	box-sizing:border-box;
+	background:#666666;
+	padding:3px 6px;
+	
+	color:#fff;
+}
+.Artist .cent  ul .act{
+	border:1px solid #f4f4f4;
+	box-sizing:border-box;
+	background:#A6A6A6;
+	padding:3px 6px;
+	
+	color:#fff;
+}
+.Artist .cent  ul .sheng{
+	width:36px;
+	text-align:center;
+}
+.Artist .cent  ul{
+	margin-bottom:5px;
+}
+.Artist .cent  ul li:first-child{
+	height:22px;
+}
+.Artist .cent  ul li{
+	height:21px;
+	box-sizing:border-box;
+	margin-bottom:5px;
+	cursor:pointer;
+	float:left;
+	color:#666;
+	padding:3px 6px;
+	margin-right:4px;
+}
+.diqu h3 span{
+	padding:0 14px;
+}
+.Artist .cent .pinyin{
+	border:0 none;
+}
+.Artist .cent .pinyin ul{
+	float:left;
+	width:auto;
+}
+.Artist .cent .pinyin ul li {
+	margin-right:0px;
+}
+.Artist .cent .pinyin ol li{
+	float:left;
+}
+.Artist .cent .pinyin ol li:first-child{
+	font-family:微软雅黑;
+	font-size:14px;
+	font-weight:bold;
+}
+.Artist .cent .pinyin ol li input{
+	width:158px;
+	height:28px;
+	border:1px solid #C1C1C1;
+	padding-left:5px;
+}
+.Artist .cent .pinyin ol{
+	margin-top:-7px;
+	margin-left:25px;
+}
+.Artist .cent .pinyin ol li button{
+	width:103px;
+	height:30px;
+	border:1px solid #FECEB0;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+	font-family:微软雅黑;
+	background:#FF6200;
+	margin-left:12px;
+}
+.Artist .cent .pinyin ol li{
+	line-height:30px;
+}
+/*中间底部填坑内容*/
+.Artist .btm .l,.Artist .btm .r{
+	float:left;
+}
+
+.Artist .btm .l{
+	width:831px;
+
+}
+.Artist .btm .l ul li p{
+	color:#999;
+	font-family:微软雅黑;
+}
+.Artist .btm .l ul li{
+	float:left;
+	padding-left:13px;
+	line-height:24px;
+	width:262px;
+	height:354px;
+	padding-top:9px;
+	border-left:1px solid #fff;
+	border-top:1px solid #fff;
+	border-right:1px solid  #F8F8F8;
+	border-bottom:1px solid  #F8F8F8;
+	position:relative;
+}
+.Artist .btm .l ul li:hover{
+	border:1px solid red ;
+}
+.Artist .btm .l ul li s{
+	position:absolute;
+	right:25px;
+	top:225px;
+}
+.Artist .btm .l ul li s .juse{
+	font-size:16px;
+	font-weight:bold;
+}
+.Artist .btm .l ul li s p{
+	display:inline;
+}
+.Artist .btm .l ul li .touxiang p,.Artist .btm .l ul li .touxiang p{
+	float:left;
+}
+.Artist .btm .l ul li .touxiang{
+	margin-left:113px;
+}
+.Artist .btm .l ul li .touxiang p{
+	margin-right:5px;
+}
+.Artist .btm .l ul li img{
+	border:#f4f4f4 1px solid;
+}
+.Artist .btm .l ul li p span{
+	color:#666;
+	font-family:宋体;
+}
+.Artist .btm .l .juse{
+	color:#FF8838;
+}
+.Artist .btm .r{
+	margin-left:10px;
+}
+
+.Artist .btm .r .red{
+	color:#FE1819;
+}
+.Artist .btm .r .t {
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:18px;
+	padding-bottom:24px;
+	border-bottom:1px solid #F5F5F5;
+}
+.Artist .btm .r .t h3{
+	font-size:16px;
+	height:25px;
+}
+.Artist .btm .r .t ul li {
+	font-size:14px;
+	color:#666;
+		line-height:24px;
+}
+/*跳转页面按钮*/
+.Artist .anniu{
+	margin: 40px 0 30px 150px;
+
+}
+.jobIndex {
+	padding: 0 4px;
+}
+.Artist .anniu li{
+	float: left;
+	width: 35px;
+	height: 35px;
+	border:1px solid #C1C1C1;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 35px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+	font-size: 14px;
+	color: #7F7F7F;
+	cursor: pointer;
+	margin: 0 10px;
+	background: url(../img/huihua_tiaoye_bj.jpg) repeat-x;
+}
+.Artist .anniu li:nth-child(8){
+	border:0 none;
+	margin: 0 ;
+	background: none;
+}
+.Artist .anniu li:nth-child(8).act,.Ct ol li:nth-child(12).act{
+	border:0 none;
+	background: none;
+	color: #7F7F7F;
+}
+.Artist .anniu .act 
+.Artist .anniu li:nth-child(7){
+	margin-right: 2px;
+}
+.Artist .anniu li:nth-child(9){
+	margin-left:4px;
+}
+.Artist .anniu li:nth-child(11) s{
+	width: 6px;
+	height: 12px;
+	display: block;
+	background: url(../img/sp.png) no-repeat -102px -121px;
+	padding: 15px 0 0 15px;
+}
+.Artist .anniu li:nth-child(12),.Ct ol li:nth-child(13){
+	border:0 none;
+	background: none;
+	width: auto;
+	font-weight: normal;
+}
+.Artist .anniu li:nth-child(13) input{
+	border:0 none;
+	border:1px solid #C1C1C1 ;
+	
+	line-height: 40px;
+	padding-left: 5px;
+	width: 35px;
+	height: 35px;
+	background: url(../img/huihua_tiaoye_bj.jpg) repeat-x;
+}
+.Artist .anniu .act{
+	border:1px solid #ECA128;
+	background: url(../img/huihua_tiaozhuan_bj_hover.jpg) repeat-x;
+	color: #fff;
+}
+/*底部banner*/
+.footBanner {
+	width: 1083px;
+	margin: 20px auto;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
