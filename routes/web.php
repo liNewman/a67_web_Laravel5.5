@@ -17,19 +17,7 @@ Route::get('/', function () {
 
 
 
-
-
-
-
-
-
-
-
-
 Route::get('student/index','StudentController@index');
-
-
-
 
 
 Route::get('/study/sign','StudyController@Sign');
@@ -82,55 +70,55 @@ Route::group(['prefix'=>'admin'],function(){
 
 
     //    足球竞猜
-    Route::get("guess/index",'Admin\GuessController@index');    //展示列表
-    Route::post("guess/doinsert",'Admin\GuessController@doinsert');  //添加列表
-    Route::post("guess/indexrecord",'Admin\GuessController@indexrecord');   //添加方法
-    Route::get("guess/result/{id?}",'Admin\GuessController@result');   //删除
-    Route::post("guess/doresult",'Admin\GuessController@doresult');
-    Route::get("guess/end/{id?}",'Admin\GuessController@end');
+    Route::get("guess/index",'Admin\GuessController@index')->name('guess.index');    //展示列表
+    Route::post("guess/doinsert",'Admin\GuessController@doinsert')->name('guess.doinsert');  //添加列表
+    Route::post("guess/indexrecord",'Admin\GuessController@indexrecord')->name('guess.indexrecord');   //添加方法
+    Route::get("guess/result/{id?}",'Admin\GuessController@result')->name('guess.result.id');   //删除
+    Route::post("guess/doresult",'Admin\GuessController@doresult')->name('guess.doresult');
+    Route::get("guess/end/{id?}",'Admin\GuessController@end')->name('guess.end.id');
 
 
 
 
     //登陆的路由
-    Route::get('login','Admin\LoginController@login');
-    Route::post('doLogin','Admin\LoginController@doLogin');
-    Route::get('logout','Admin\LoginController@logout');
+    Route::get('login','Admin\LoginController@login')->name('login');
+    Route::post('doLogin','Admin\LoginController@doLogin')->name('doLogin');
+    Route::get('logout','Admin\LoginController@logout')->name('logout');
 
     //后台首页的路由
-    Route::get('home','Admin\HomeController@home');
+    Route::get('home','Admin\HomeController@home')->name('home');
     
     //列表的路由
-    Route::get('list','Admin\ListController@list');
+    Route::get('list','Admin\ListController@list')->name('list');
     //表单的路由
-    Route::get('form','Admin\FormController@form');
+    Route::get('form','Admin\FormController@form')->name('form');
     //签到的路由
-    Route::get('sign','Admin\SignController@sign');
-    Route::post('doSign','Admin\SignController@doSign');
+    Route::get('sign','Admin\SignController@sign')->name('sign');
+    Route::post('doSign','Admin\SignController@doSign')->name('doSign');
 
 
     //权限管理
-    Route::get('permissions/list/{id?}','Admin\permissionsController@list');
+    Route::get('permissions/list/{id?}','Admin\permissionsController@list')->name('permission/list/id');
 
     //权限提交页面
-    Route::get('permissions/create','Admin\permissionsController@create');
+    Route::get('permissions/create','Admin\permissionsController@create')->name('permissions.create');
 
 
-    Route::post('permissions/store','Admin\PermissionsController@Store');
+    Route::post('permissions/store','Admin\PermissionsController@Store')->name('permissions.store');
 
-    Route::get('user/list','Admin\AdminUserController@index');
-    Route::get('user/create','Admin\AdminUserController@create');
-    Route::post('user/store','Admin\AdminUserController@store');
-    Route::get('user/edit/{id}','Admin\AdminUserController@edit');
-    Route::post('user/doEdit','Admin\AdminUserController@doEdit');
-    Route::get('user/delete/{id}','Admin\AdminUserController@delete');
+    Route::get('user/list','Admin\AdminUserController@index')->name('user.list');
+    Route::get('user/create','Admin\AdminUserController@create')->name('user.create');
+    Route::post('user/store','Admin\AdminUserController@store')->name('user.store');
+    Route::get('user/edit/{id}','Admin\AdminUserController@edit')->name('user.edit.id');
+    Route::post('user/doEdit','Admin\AdminUserController@doEdit')->name('user.doEdit');
+    Route::get('user/delete/{id}','Admin\AdminUserController@delete')->name('user.delete.id');
 
 
     //角色管理路由
-    Route::get('role/list','Admin\RoleController@list');
-    Route::get('role/create','Admin\RoleController@create');
-    Route::post('role/store','Admin\RoleController@store');
-    Route::get('role/edit/{id}','Admin\RoleController@edit');
+    Route::get('role/list','Admin\RoleController@list')->name('role.list');
+    Route::get('role/create','Admin\RoleController@create')->name('role/create');
+    Route::post('role/store','Admin\RoleController@store')->name('role.store');
+    Route::get('role/edit/{id}','Admin\RoleController@edit')->name('role.edit');
     Route::post('role/doEdit','Admin\RoleController@doEdit');
     Route::get('role/delete/{id}','Admin\RoleController@delete');
 
@@ -170,10 +158,6 @@ Route::group(['prefix'=>'admin'],function(){
     Route::post('log/addSave', 'Admin\LogController@addSave');
 
     Route::get('log/delete/{id}','Admin\LogController@delete');
-
-
-
-
 
 });
 
